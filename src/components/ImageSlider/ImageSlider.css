@@ -1,0 +1,9 @@
+.swiper__item {
+  background: red;
+  width: 200px;
+  height: 200px;
+}
+
+.second__item {
+  background: blue;
+}

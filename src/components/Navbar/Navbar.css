@@ -1,0 +1,52 @@
+.navbar__wrapper {
+height: 8vh;
+}
+.site__logo {
+  object-fit: contain;
+}
+
+.logo__text {
+  letter-spacing: 0.85rem;
+  font-size: 1.5rem;
+}
+
+.nav__link {
+  font-size: 0.9rem;
+  color: #171717;
+  cursor: pointer;
+}
+
+.navbar__grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 3fr 0.5fr;
+  grid-template-rows: auto;
+  grid-template-areas: "logo navlinks menuBtn";
+}
+
+.nav__child:nth-child(1) {
+  grid-area: logo;
+}
+.nav__child:nth-child(2) {
+  grid-area: navlinks;
+}
+.nav__child:nth-child(3) {
+  grid-area: menuBtn;
+}
+
+.navlinks {
+  gap: 3rem;
+}
+
+.mobile__menu {
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .navbar__grid {
+    grid-template-areas:
+      "logo menuBtn"
+      "navlinks navlinks";
+  }
+}
