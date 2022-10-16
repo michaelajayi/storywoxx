@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import ImageSlider from "../ImageSlider/ImageSlider";
 import WhatTheySay from "../WhatTheySay/WhatTheySay";
 import "./Testimonials.css";
 
@@ -15,7 +14,6 @@ const Testimonials = () => {
           Modern advisory services devised for companies & businesses both big
           and small
         </h4>
-        {/* <ImageSlider /> */}
         <WhatTheySay />
       </div>
     </Container>

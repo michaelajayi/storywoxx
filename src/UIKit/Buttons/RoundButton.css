@@ -1,0 +1,15 @@
+.round__button {
+  padding: 1.6rem !important;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 1px solid #9c9c9c;
+  cursor: pointer;
+  position: relative;
+}
+
+.round__button__arrow {
+  position: absolute;
+  margin-left: -50%;
+}

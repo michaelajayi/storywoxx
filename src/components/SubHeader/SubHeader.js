@@ -1,19 +1,9 @@
 import React, { useId } from "react";
-import { Container } from "react-bootstrap";
-import styled from "styled-components";
 import { CgArrowLongRight } from "react-icons/cg";
+import styled from "styled-components";
 import "./SubHeader.css";
+import RoundButton from "../../UIKit/Buttons/RoundButton";
 
-const RoundButton = styled.div`
-  background: #fff;
-  border: none;
-  border: 1px solid #878787;
-  padding: 1rem 1.5rem;
-  display: grid;
-  border-radius: 50%;
-  aspect-ratio: 1;
-  place-content: center;
-`;
 const SubHeader = () => {
   const id = useId();
 
@@ -43,16 +33,11 @@ const SubHeader = () => {
             className={`d-flex flex-column align-items-start gap-3 ${
               index === 2 && "d-none d-lg-flex"
             }`}
-            id={`${id}-${index}`}
+            key={`${id}-${index}`}
           >
             <h3>{item.title}</h3>
             <p className='subheader__text'>{item.text}</p>
-            <RoundButton style={{ position: "relative" }}>
-              <CgArrowLongRight
-                color='black'
-                style={{ position: "absolute", left: "0", top: "10" }}
-              />
-            </RoundButton>
+            <RoundButton arrowColor='#000' />
           </div>
         ))}
       </div>

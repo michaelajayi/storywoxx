@@ -1,0 +1,15 @@
+.reviews__container {
+  padding: 3rem 15rem;
+}
+
+.quote__container {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  margin-top: 3rem;
+}
+
+.quote__container > svg > path {
+  cursor: none !important;
+  fill: #f5f5f3;
+}
