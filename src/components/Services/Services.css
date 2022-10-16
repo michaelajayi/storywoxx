@@ -1,0 +1,43 @@
+.services__wrapper {
+  width: 70%;
+  gap: 3rem;
+}
+
+.services__container {
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.services__container::before {
+  content: "";
+  background-image: url("../../assets/img/banner/services-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.services__heading {
+  width: 50%;
+}
+
+.services__sub__heading {
+  font-size: 20px;
+  color: #171717;
+  word-wrap: break-word;
+  line-height: 1.2em;
+}
+
+.services__text {
+  color: #878787;
+  font-size: 16px;
+  line-height: 1.6em;
+  width: 80%;
+}

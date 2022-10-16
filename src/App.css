@@ -187,3 +187,19 @@ select {
 .fs-600 {
   line-height: 1.1;
 }
+
+.sub__heading {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.35em;
+  line-height: 1.8em;
+  color: #8b8b8b;
+}
+
+.main__heading {
+  font-size: 43px;
+  color: #171717;
+  line-height: 1.2em;
+  word-wrap: break-word;
+}
