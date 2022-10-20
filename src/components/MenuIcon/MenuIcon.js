@@ -3,7 +3,7 @@ import React, { useLayoutEffect, useRef } from "react";
 import styled from "styled-components";
 import "./MenuIcon.css";
 
-const MenuIcon = () => {
+const MenuIcon = ({ color }) => {
   const menuIconsRef = useRef();
   const topRef = useRef();
   const bottomRef = useRef();
@@ -11,7 +11,7 @@ const MenuIcon = () => {
 
   const Line = styled.div`
     width: 2rem;
-    border-top: 1px solid black;
+    border-top: 1px solid ${color};
   `;
 
   const tl = gsap.timeline({

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useId } from "react";
 import { Container, Image } from "react-bootstrap";
 import "./Services.css";
 import design from "../../UIKit/Icons/design.svg";
@@ -7,6 +7,8 @@ import branding from "../../UIKit/Icons/branding.svg";
 import management from "../../UIKit/Icons/management.svg";
 
 const Services = () => {
+  const id = useId();
+
   const featuredServices = [
     {
       heading: "Branding",
@@ -42,8 +44,11 @@ const Services = () => {
           </h1>
         </div>
         <div className='featured__services d-flex flex-column flex-md-row justify-content-between align-items-center gap-5'>
-          {featuredServices.map((service) => (
-            <div className='d-flex flex-column align-items-center justify-content-center gap-2'>
+          {featuredServices.map((service, index) => (
+            <div
+              className='d-flex flex-column align-items-center justify-content-center gap-2'
+              key={`${index}-${id}`}
+            >
               <Image src={service.icon} className='mb-3' />
               <h4 className='services__sub__heading text-center'>
                 {service.heading}

@@ -14,12 +14,13 @@
 
 .footer__sub__col > ul > li:hover {
   color: #878787;
+  cursor: pointer;
 }
 
 .footer__form {
   border: 0;
   border-bottom: 1px solid #878787;
-  margin-left: -12%;
+  width: 48%;
 }
 
 .email__input {

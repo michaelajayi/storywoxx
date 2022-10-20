@@ -1,0 +1,15 @@
+.video__wrapper {
+  width: 90%;
+  height: 95vh;
+  position: relative;
+}
+
+.video__wrapper > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top center;
+}

@@ -1,19 +1,24 @@
 .navbar__wrapper {
-height: 8vh;
+  height: 8vh;
 }
 .site__logo {
   object-fit: contain;
 }
 
-.logo__text {
-  letter-spacing: 0.85rem;
-  font-size: 1.5rem;
+.logo__text,
+.logo__text:hover {
+  letter-spacing: 0.65rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #171717;
 }
 
-.nav__link {
+.nav__link,
+.nav__link:hover {
   font-size: 0.9rem;
   color: #171717;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .navbar__grid {

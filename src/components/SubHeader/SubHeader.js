@@ -1,8 +1,6 @@
 import React, { useId } from "react";
-import { CgArrowLongRight } from "react-icons/cg";
-import styled from "styled-components";
-import "./SubHeader.css";
 import RoundButton from "../../UIKit/Buttons/RoundButton";
+import "./SubHeader.css";
 
 const SubHeader = () => {
   const id = useId();
@@ -26,11 +24,11 @@ const SubHeader = () => {
     },
   ];
   return (
-    <div className='py-5 subheader__container d-flex justify-content-center align-items-center bg-white'>
-      <div className='d-flex flex-column flex-md-row gap-5 subheader__wrapper'>
+    <div className='subheader__container d-flex justify-content-evenly align-items-center bg-white'>
+      <div className='subheader__wrapper d-flex'>
         {subHeaderItems.map((item, index) => (
           <div
-            className={`d-flex flex-column align-items-start gap-3 ${
+            className={`d-flex flex-column align-items-start subheader__sub gap-3 ${
               index === 2 && "d-none d-lg-flex"
             }`}
             key={`${id}-${index}`}

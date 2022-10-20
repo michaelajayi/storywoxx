@@ -5,7 +5,7 @@ import "./Testimonials.css";
 
 const Testimonials = () => {
   return (
-    <Container fluid>
+    <Container fluid className='testimonials__wrapper'>
       <div className='testimonials-wrapper d-flex flex-column align-items-start'>
         <p className='testimonials-sub__heading text-uppercase'>
           What they say

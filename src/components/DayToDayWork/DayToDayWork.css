@@ -1,0 +1,80 @@
+.dToday__wrapper {
+  width: 70%;
+  gap: 3rem;
+}
+
+.dToday__container {
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.dToday__heading {
+  width: 45%;
+}
+
+.dToday__heading > *::-moz-selection {
+  background: #171717;
+  color: #fff;
+}
+
+.dToday__heading > *::selection {
+  background: #171717;
+  color: #fff;
+}
+
+.dToday__heading > *::-webkit-selection {
+  background: #171717;
+  color: #fff;
+}
+
+.dToday__sub__heading::-moz-selection,
+.dToday__text::-moz-selection {
+  background: #171717;
+  color: #fff;
+}
+
+.dToday__sub__heading::selection,
+.dToday__text::selection {
+  background: #171717;
+  color: #fff;
+}
+
+.dToday__sub__heading::-webkit-selection,
+.dToday__text::-webkit-selection {
+  background: #171717;
+  color: #fff;
+}
+
+.dToday__sub__heading {
+  font-size: 20px;
+  color: #171717;
+  word-wrap: break-word;
+  line-height: 1.2em;
+}
+
+.dToday__text {
+  color: #878787;
+  font-size: 16px;
+  line-height: 1.6em;
+  width: 80%;
+}
+
+
+.progressbar-text {
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  padding: 0;
+  margin: 0;
+  font-family: Poppins,sans-serif;
+  font-weight: 400;
+  color: #171717;
+  font-size: 20px;
+  line-height: 1.2em;
+}

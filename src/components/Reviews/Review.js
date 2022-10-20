@@ -23,13 +23,13 @@ const Review = () => {
     },
     {
       heading: "What They Say",
-      text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum tempore ea rem ipsa magnam vel provident fugit sed ducimus impedit!",
+      text: "Vulputate mi sit amet mauris commodo quis imperdiet. Metus vulputate eu felis imperdiet proin nulla aliquet enim.",
       author: "Provident Fugit",
       position: "Software Engineer",
     },
     {
       heading: "What They Say",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatibus placeat illum veritatis? Aperiam perferendis quibusdam qui eum enim illum.",
+      text: "Vulputate mi sit amet mauris commodo quis imperdiet. Metus vulputate eu felis imperdiet proin nulla aliquet enim.",
       author: "Quis Imperdiet",
       position: "QA Tester",
     },
@@ -46,6 +46,10 @@ const Review = () => {
         grabCursor={true}
         loop={true}
         keyboard={{ enabled: true }}
+        autoplay={{
+          delay: 3000,
+          pauseOnMouseEnter: true,
+        }}
         navigation={true}
         modules={[Autoplay, Navigation, Keyboard]}
         className='mySwiper d-flex flex-column justify-content-center align-items-center'

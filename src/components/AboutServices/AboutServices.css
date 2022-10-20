@@ -1,0 +1,61 @@
+.services__wrapper {
+  width: 70%;
+  gap: 3rem;
+}
+
+.services__container {
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.services__heading {
+  width: 45%;
+}
+
+.services__heading > *::-moz-selection {
+  background: #171717;
+  color: #fff;
+}
+
+.services__heading > *::selection {
+  background: #171717;
+  color: #fff;
+}
+
+.services__heading > *::-webkit-selection {
+  background: #171717;
+  color: #fff;
+}
+
+.services__sub__heading::-moz-selection,
+.services__text::-moz-selection {
+  background: #171717;
+  color: #fff;
+}
+
+.services__sub__heading::selection,
+.services__text::selection {
+  background: #171717;
+  color: #fff;
+}
+
+.services__sub__heading::-webkit-selection,
+.services__text::-webkit-selection {
+  background: #171717;
+  color: #fff;
+}
+
+.services__sub__heading {
+  font-size: 20px;
+  color: #171717;
+  word-wrap: break-word;
+  line-height: 1.2em;
+}
+
+.services__text {
+  color: #878787;
+  font-size: 16px;
+  line-height: 1.6em;
+  width: 80%;
+}

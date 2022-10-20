@@ -13,12 +13,10 @@ const Footer = () => {
     >
       <div className='footer__wrapper d-flex flex-column justify-content-between gap-5'>
         <div className='our__brand d-flex flex-column flex-md-row align-items-baseline  align-items-md-center justify-content-between align-items-end'>
-          <h1 className='text-light flex-grow-0 '>
-            Perfect partner for success
-          </h1>
-          <div className='flex-grow-1'></div>
-          <div className='flex-grow-1'></div>
-          <form className='footer__form py-3 flex-grow-1 d-flex justify-content-between align-items-end'>
+          <h1 className='text-light'>Perfect partner for success</h1>
+          {/* <div className='flex-grow-1'></div> */}
+          {/* <div className='flex-grow-1'></div> */}
+          <form className='footer__form py-3 d-flex justify-content-between align-items-end'>
             <input
               type='email'
               placeholder='Email'
@@ -32,7 +30,7 @@ const Footer = () => {
             <h4 className='footer__sub__heading text-uppercase my-2'>
               Our Offices
             </h4>
-            <ul className='text-light d-flex flex-column gap-1 px-0'>
+            <ul className='text-light d-flex flex-column gap-2 px-0'>
               <li>London</li>
               <li>Paris</li>
               <li>Stockholm</li>
@@ -42,7 +40,7 @@ const Footer = () => {
             <h4 className='footer__sub__heading text-uppercase my-2'>
               Help Center
             </h4>
-            <ul className='text-light d-flex flex-column gap-1 px-0'>
+            <ul className='text-light d-flex flex-column gap-2 px-0'>
               <li>FAQs</li>
               <li>Call Center</li>
               <li>Blog posts</li>
@@ -52,7 +50,7 @@ const Footer = () => {
             <h4 className='footer__sub__heading text-uppercase my-2'>
               Follow Us
             </h4>
-            <ul className='text-light d-flex flex-column gap-1 px-0'>
+            <ul className='text-light d-flex flex-column gap-2 px-0'>
               <li>Facebook</li>
               <li>Twitter</li>
               <li>LinkedIn</li>
@@ -62,9 +60,9 @@ const Footer = () => {
             <h4 className='footer__sub__heading text-uppercase my-2'>
               Contact Us
             </h4>
-            <ul className='text-light d-flex flex-column gap-1 px-0'>
+            <ul className='text-light d-flex flex-column gap-2 px-0'>
               <li>hi@storywoxx.com</li>
-              <li>Ikoyi, Lagos Island</li>
+              <li>Ikoyi, Lagos Island, 110105</li>
               <li>+234 123 456 7890</li>
             </ul>
           </div>

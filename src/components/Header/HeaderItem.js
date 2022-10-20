@@ -13,8 +13,6 @@ const HeaderItem = ({ item }) => {
       height: 92vh;
       position: relative;
       display: grid;
-      /* padding: 13rem 10rem; */
-      /* place-content: left bottom; */
     }
 
     &:after {
@@ -22,7 +20,7 @@ const HeaderItem = ({ item }) => {
       position: absolute;
       background-image: url(${item.bg});
       filter: brightness(1);
-      background-position: bottom;
+      background-position: center;
       background-repeat: no-repeat;
       object-fit: cover;
       width: 100vw;

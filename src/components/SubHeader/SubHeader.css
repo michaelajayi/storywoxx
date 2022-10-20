@@ -1,11 +1,8 @@
-.subheader__wrapper {
-  /* padding: 1rem 2rem; */
-}
-
 .subheader__text {
   width: 60%;
   font-size: 1rem;
   color: #878787;
+  word-wrap: break-word;
 }
 
 .subheader__container {
@@ -13,5 +10,9 @@
   position: absolute;
   bottom: 0;
   z-index: 2;
-  padding: 2rem 15rem;
+  padding-top: 2rem;
+}
+
+.subheader__wrapper {
+  width: 80%;
 }

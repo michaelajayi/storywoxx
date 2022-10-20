@@ -1,5 +1,6 @@
-import React, { useEffect, useLayoutEffect, useId, useState } from "react";
+import React, { Fragment, useId, useState } from "react";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import MenuIcon from "../MenuIcon/MenuIcon";
 import "./Navbar.css";
 
@@ -15,33 +16,39 @@ const Navbar = () => {
   const navLinks = [
     {
       title: "Home",
+      link: "/",
     },
     {
       title: "About Us",
-    },
-    {
-      title: "What We Do",
+      link: "/about-us",
     },
     {
       title: "Portfolio",
+      link: "/portolio",
     },
     {
       title: "Blog",
+      link: "/blog",
     },
     {
-      title: "Contact",
+      title: "Contact Us",
+      link: "/contact-us",
     },
   ];
 
   return (
-    <>
+    <Fragment>
       <Container fluid className='px-4 px-md-5 py-4 navbar__wrapper'>
         <header className='d-flex desktop-header justify-content-between align-items-center'>
           <div className='navlinks left__nav d-flex align-items-center justify-content-start'>
-            <h2 className='text-uppercase logo__text'>StoryWoxx</h2>
+            <Link to='/' className='text-uppercase logo__text'>
+              StoryWoxx
+            </Link>
             {navLinks.map((link, index) => (
               <div key={`${id}-${index}`}>
-                <p className='nav__link'>{link.title}</p>
+                <Link to={link.link} className='nav__link'>
+                  {link.title}
+                </Link>
               </div>
             ))}
           </div>
@@ -65,14 +72,16 @@ const Navbar = () => {
             <div className='mobile__menu d-flex mt-3'>
               {navLinks.map((link, index) => (
                 <div key={`${id}-${index}`}>
-                  <p className='nav__link'>{link.title}</p>
+                  <Link to={link.link} className='nav__link'>
+                    {link.title}
+                  </Link>
                 </div>
               ))}
             </div>
           )}
         </header>
       </Container>
-    </>
+    </Fragment>
   );
 };
 
