@@ -22,14 +22,14 @@ const Navbar = () => {
       title: "About Us",
       link: "/about-us",
     },
-    {
-      title: "Portfolio",
-      link: "/portolio",
-    },
-    {
-      title: "Blog",
-      link: "/blog",
-    },
+    // {
+    //   title: "Portfolio",
+    //   link: "/portolio",
+    // },
+    // {
+    //   title: "Blog",
+    //   link: "/blog",
+    // },
     {
       title: "Contact Us",
       link: "/contact-us",
