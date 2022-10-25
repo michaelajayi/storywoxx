@@ -1,12 +1,12 @@
 .subheader__text {
-  width: 60%;
+  width: 90%;
   font-size: 1rem;
   color: #878787;
   word-wrap: break-word;
 }
 
 .subheader__container {
-  width: 85%;
+  width: 90%;
   position: absolute;
   bottom: 0;
   z-index: 2;
@@ -14,5 +14,18 @@
 }
 
 .subheader__wrapper {
-  width: 80%;
+  width: 85%;
+  flex-basis: 1;
+  padding-top: 3rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.subheader__wrapper > * {
+  flex-grow: 1;
+  width: 30%;
+}
+
+.subheader__title {
+  font-size: 24px;
 }

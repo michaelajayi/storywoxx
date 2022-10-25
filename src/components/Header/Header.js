@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade, Keyboard, Navigation } from "swiper";
 import HeaderItem from "./HeaderItem";
 import SubHeader from "../SubHeader/SubHeader";
-import './Header.css';
+import "./Header.css";
 
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -21,24 +21,24 @@ const Header = () => {
 
   const headerItems = [
     {
-      small: "Step in the right direction",
-      title: "World class team built for you",
-      buttonText: "View more",
-      buttonUrl: "/view-more",
+      small: "Story driven change",
+      title: "Brand and Marketing Agency",
+      buttonText: "Learn more",
+      buttonUrl: "/about-us",
       bg: bg01,
     },
     {
-      small: "Step in the right direction",
-      title: "World class team built for you",
-      buttonText: "View more",
-      buttonUrl: "/view-more",
+      small: "Story driven change",
+      title: "Brand and Marketing Agency",
+      buttonText: "Learn More",
+      buttonUrl: "/about-us",
       bg: bg02,
     },
     {
-      small: "Step in the right direction",
-      title: "World class team built for you",
-      buttonText: "View more",
-      buttonUrl: "/view-more",
+      small: "Story driven change",
+      title: "Brand and Marketing Agency",
+      buttonText: "Learn more",
+      buttonUrl: "/about-us",
       bg: bg03,
     },
   ];
@@ -51,7 +51,8 @@ const Header = () => {
         }}
         slidesPerView={1}
         centeredSlides={true}
-        grabCursor={true}
+        noSwiping={true}
+        noSwipingClass='header-swiper'
         effect={"fade"}
         loop={true}
         keyboard={{ enabled: true }}
@@ -61,7 +62,7 @@ const Header = () => {
         // }}
         navigation={true}
         modules={[Autoplay, Navigation, Keyboard, EffectFade]}
-        className='mySwiper'
+        className='mySwiper header-swiper'
         breakpoints={{
           320: {
             slidesPerView: 1,

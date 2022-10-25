@@ -1,5 +1,5 @@
 .mySwiper__whattheysay {
-  display: flex;
-  overflow: overlay;
+  /* display: flex; */
+  /* overflow: overlay; */
   cursor: grab;
 }

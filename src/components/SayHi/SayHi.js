@@ -26,7 +26,7 @@ const SayHi = () => {
           <div className='d-flex flex-column gap-5'>
             <div className='d-flex flex-column gap-2'>
               <p className='sub__heading'>Step in the right direction</p>
-              <h1 className='min'>
+              <h1 className='w-75'>
                 Don't be shy, please don't hesitate to say hi
               </h1>
             </div>

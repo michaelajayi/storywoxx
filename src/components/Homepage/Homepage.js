@@ -1,10 +1,12 @@
 import React, { Fragment } from "react";
-import Navbar from "../Navbar/Navbar";
+import DigitalExperience from "../DigitalExperience/DigitalExperience";
+import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import Testimonials from "../Testimonials/Testimonials";
+import Navbar from "../Navbar/Navbar";
+import OurBusinessThrives from "../OurBusinessThrives/OurBusinessThrives";
 import Review from "../Reviews/Review";
 import Services from "../Services/Services";
-import Footer from "../Footer/Footer";
+import Testimonials from "../Testimonials/Testimonials";
 
 const Homepage = () => {
   return (
@@ -13,6 +15,8 @@ const Homepage = () => {
       <Header />
       <Testimonials />
       <Review />
+      <DigitalExperience />
+      <OurBusinessThrives />
       <Services />
       <Footer />
     </Fragment>

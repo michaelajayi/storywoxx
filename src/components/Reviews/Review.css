@@ -13,3 +13,7 @@
   cursor: none !important;
   fill: #f5f5f3;
 }
+
+.swiper-button-prev {
+  /* display: none; */
+}

@@ -6,7 +6,7 @@ import "./MapContainer.css";
 
 const MapContainer = () => {
   return (
-    <Container fluid className='bg-white px-0'>
+    <Container fluid className='bg-white px-0 py-5'>
       <Row>
         <Col lg-={6} className='map-section'>
           <MapSection />
@@ -18,8 +18,8 @@ const MapContainer = () => {
           <div className='d-flex flex-column gap-3 meet-our-team'>
             <div className='d-flex flex-column'>
               <div className='sub__heading'>Step in the right direction</div>
-              <div className='main__heading'>
-                Meet our team of experts in Amsterdam office
+              <div className='main__heading w-75'>
+                Meet our team of experts creators in the Lagos Office
               </div>
             </div>
             <div className='d-flex flex-column gap-1 map-container-links'>

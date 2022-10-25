@@ -8,11 +8,11 @@ const Testimonials = () => {
     <Container fluid className='testimonials__wrapper'>
       <div className='testimonials-wrapper d-flex flex-column align-items-start'>
         <p className='testimonials-sub__heading text-uppercase'>
-          What they say
+          Who are We?
         </p>
         <h4 className='testimonials-heading'>
-          Modern advisory services devised for companies & businesses both big
-          and small
+          StoryWoxx is a full service, brand and marketing agency that delivers
+          smarter, more effective digital assets
         </h4>
         <WhatTheySay />
       </div>

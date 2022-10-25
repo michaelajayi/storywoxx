@@ -38,9 +38,9 @@ const Services = () => {
     >
       <div className='services__wrapper d-flex flex-column justify-content-center align-items-center py-3'>
         <div className='services__heading d-flex flex-column align-items-center justify-content-center gap-2'>
-          <p className='sub__heading text-center'>The Best Professional Team</p>
+          <p className='sub__heading text-center'>A Multi-Disciplinary Team</p>
           <h1 className='main__heading text-center'>
-            At your service for all your future projects
+            Brand Strategy, Digital Design, Development, and Online Marketing.
           </h1>
         </div>
         <div className='featured__services d-flex flex-column flex-md-row justify-content-between align-items-center gap-5'>

@@ -11,7 +11,7 @@ const CircularProgressBar = ({ percent }) => {
     <div style={{ width: 150, height: 150 }}>
       <AnimatedProgressProvider
         valueStart={0}
-        valueEnd={75}
+        valueEnd={percent}
         duration={1.4}
         easingFunction={easeQuadInOut}
         repeat

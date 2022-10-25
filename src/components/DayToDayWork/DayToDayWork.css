@@ -60,7 +60,6 @@
   width: 80%;
 }
 
-
 .progressbar-text {
   /* position: absolute;
   top: 0;
@@ -72,9 +71,13 @@
   justify-content: center; */
   padding: 0;
   margin: 0;
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 400;
   color: #171717;
   font-size: 20px;
   line-height: 1.2em;
+}
+
+.featured__dToday > * {
+  width: 30%;
 }

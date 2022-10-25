@@ -62,7 +62,7 @@ const Footer = () => {
             </h4>
             <ul className='text-light d-flex flex-column gap-2 px-0'>
               <li>hi@storywoxx.com</li>
-              <li>Ikoyi, Lagos Island, 110105</li>
+              <li>8 Dejo Adeleye Street, Abijo GRA, Lekki</li>
               <li>+234 123 456 7890</li>
             </ul>
           </div>

@@ -35,7 +35,7 @@ const Review = () => {
     },
   ];
   return (
-    <Container fluid className='reviews__container'>
+    <Container fluid className='reviews__container my-5'>
       <Swiper
         style={{
           "--swiper-navigation-color": "#8b8b8b",

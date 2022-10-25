@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import MenuIcon from "../MenuIcon/MenuIcon";
 import { Image } from "react-bootstrap";
 
+import logo from "../../assets/img/logo-white.png";
+
 const NavbarAlt = ({ bgImage, pageTitle, breadcrumbs }) => {
   const id = useId();
 
@@ -19,14 +21,14 @@ const NavbarAlt = ({ bgImage, pageTitle, breadcrumbs }) => {
       title: "About Us",
       link: "/about-us",
     },
-    // {
-    //   title: "Portfolio",
-    //   link: "/portolio",
-    // },
-    // {
-    //   title: "Blog",
-    //   link: "/blog",
-    // },
+    {
+      title: "Portfolio",
+      link: "/portolio",
+    },
+    {
+      title: "Blog",
+      link: "/blog",
+    },
     {
       title: "Contact Us",
       link: "/contact-us",
@@ -52,7 +54,7 @@ const NavbarAlt = ({ bgImage, pageTitle, breadcrumbs }) => {
           <a href='tel:+234 123 456 7890' className='py-0'>
             +234 123 456 7890
           </a>
-          <p className='py-0'>Ikoyi, Lagos, 110105</p>
+          <p className='py-0'>8 Dejo Adeleye Street, Abijo GRA, Lekki</p>
         </div>
         <div className='navbar__social__icons d-flex justify-content-start align-items-center gap-2'>
           <a href='twitter.com'>
@@ -70,7 +72,7 @@ const NavbarAlt = ({ bgImage, pageTitle, breadcrumbs }) => {
         <header className='d-flex desktop-header justify-content-between align-items-center'>
           <div className='navlinks left__nav d-flex align-items-center justify-content-start'>
             <Link to='/' className='text-uppercase logo__text__alt'>
-              StoryWoxx
+              <Image src={logo} height={40} />
             </Link>
             {navLinks.map((link, index) => (
               <div key={`${id}-${index}`}>

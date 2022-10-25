@@ -11,19 +11,22 @@ const DayToDayWork = () => {
 
   const dayToDayArray = [
     {
-      heading: "Branding",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.",
+      heading: "Extension of Your Team",
+      text: "We act as a true extension of your team, advancing business objectives, alongside your internal team.",
       icon: progressbar,
+      percent: 88,
     },
     {
-      heading: "Manage",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.",
+      heading: "Multi-Disciplinary Creators",
+      text: "Our agency consists of experienced marketers, strategists, creatives and developers.",
       icon: management,
+      percent: 95,
     },
     {
-      heading: "Design",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.",
+      heading: "Systematic Approach",
+      text: "A comprehensive process which is segmented into phases and varied offerings.",
       icon: design,
+      percent: 90,
     },
   ];
   return (
@@ -33,9 +36,11 @@ const DayToDayWork = () => {
     >
       <div className='dToday__wrapper d-flex flex-column justify-content-center align-items-center py-3'>
         <div className='dToday__heading d-flex flex-column align-items-center justify-content-center gap-2'>
-          <p className='sub__heading text-center'>Our Business</p>
-          <h1 className='main__heading text-center'>Day-to-day Work</h1>
-          <h1 className='main__heading text-center'>Made Simple and easy</h1>
+          <p className='sub__heading text-center'>We are Unique</p>
+          <h1 className='main__heading text-center'>
+            Our Value Differentiator
+          </h1>
+          {/* <h1 className='main__heading text-center'>Made Simple and easy</h1> */}
         </div>
         <div className='featured__dToday d-flex flex-column flex-md-row justify-content-between align-items-center gap-5 mt-4'>
           {dayToDayArray.map((dToday, index) => (
@@ -43,7 +48,7 @@ const DayToDayWork = () => {
               className='d-flex flex-column align-items-center justify-content-center gap-2'
               key={`${index}-${id}`}
             >
-              <CircularProgressBar percent={75} />
+              <CircularProgressBar percent={dToday.percent} />
               <h4 className='dToday__sub__heading text-center mt-3'>
                 {dToday.heading}
               </h4>

@@ -1,12 +1,7 @@
-.what__they__say__wrapper {
-  gap: 3.7rem;
-}
-
 .what__they__say__box {
-  height: 380px;
-  width: 380px;
-  background: purple;
-  position: relative;
+  /* height: 380px;
+  width: 380px; */
+  /* position: relative; */
 }
 
 .what__they__say__img {

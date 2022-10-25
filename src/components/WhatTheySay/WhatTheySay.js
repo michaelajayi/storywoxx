@@ -1,5 +1,7 @@
 import React, { useId } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Grid, Pagination } from "swiper";
+import "./WhatTheySay.css";
 
 import WhatTheySayItem from "./WhatTheySayItem";
 
@@ -12,78 +14,74 @@ import bg06 from "../../assets/img/what-they-say/06.jpg";
 import bg07 from "../../assets/img/what-they-say/07.jpg";
 import bg08 from "../../assets/img/what-they-say/08.jpg";
 
-import "./WhatTheySay.css";
+import "swiper/css";
+import "swiper/css/grid";
+import "swiper/css/pagination";
 
 const WhatTheySay = () => {
   const id = useId();
 
   const sliders = [
-    [
-      {
-        text: "Opportunity",
-        img: bg01,
-      },
-      {
-        text: "Best Style",
-        img: bg02,
-      },
-    ],
-    [
-      {
-        text: "Blessing",
-        img: bg03,
-      },
-      {
-        text: "Organize",
-        img: bg04,
-      },
-    ],
-    [
-      {
-        text: "Beauty Now",
-        img: bg05,
-      },
-      {
-        text: "Art",
-        img: bg06,
-      },
-    ],
-    [
-      {
-        text: "Beauty Now",
-        img: bg07,
-      },
-      {
-        text: "Art",
-        img: bg08,
-      },
-    ],
-    [
-      {
-        text: "Beauty Now",
-        img: bg01,
-      },
-      {
-        text: "Art",
-        img: bg02,
-      },
-    ],
-    [
-      {
-        text: "Beauty Now",
-        img: bg03,
-      },
-      {
-        text: "Art",
-        img: bg04,
-      },
-    ],
+    {
+      text: "Opportunity",
+      img: bg01,
+    },
+    {
+      text: "Best Style",
+      img: bg02,
+    },
+    {
+      text: "Blessing",
+      img: bg03,
+    },
+    {
+      text: "Organize",
+      img: bg04,
+    },
+    {
+      text: "Beauty Now",
+      img: bg05,
+    },
+    {
+      text: "Art",
+      img: bg06,
+    },
+    {
+      text: "Beauty Now",
+      img: bg07,
+    },
+    {
+      text: "Art",
+      img: bg08,
+    },
+    {
+      text: "Beauty Now",
+      img: bg01,
+    },
+    {
+      text: "Art",
+      img: bg02,
+    },
+    {
+      text: "Beauty Now",
+      img: bg03,
+    },
+    {
+      text: "Art",
+      img: bg04,
+    },
   ];
   return (
     <Swiper
       slidesPerView={4}
       grabCursor={true}
       effect={"fade"}
+      grid={{
+        rows: 2,
+        fill: "row",
+      }}
+      spaceBetween={30}
+      modules={[Grid, Pagination]}
       breakpoints={{
         320: {
           slidesPerView: 1,

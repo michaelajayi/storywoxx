@@ -1,8 +1,11 @@
 import React, { Fragment, useId, useState } from "react";
-import { Container } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import MenuIcon from "../MenuIcon/MenuIcon";
 import "./Navbar.css";
+
+import logo from "../../assets/img/logo-black.png";
+// import logo from "../../assets/img/storywoxx.png";
 
 const Navbar = () => {
   const id = useId();
@@ -22,14 +25,14 @@ const Navbar = () => {
       title: "About Us",
       link: "/about-us",
     },
-    // {
-    //   title: "Portfolio",
-    //   link: "/portolio",
-    // },
-    // {
-    //   title: "Blog",
-    //   link: "/blog",
-    // },
+    {
+      title: "Portfolio",
+      link: "/portolio",
+    },
+    {
+      title: "Blog",
+      link: "/blog",
+    },
     {
       title: "Contact Us",
       link: "/contact-us",
@@ -42,7 +45,7 @@ const Navbar = () => {
         <header className='d-flex desktop-header justify-content-between align-items-center'>
           <div className='navlinks left__nav d-flex align-items-center justify-content-start'>
             <Link to='/' className='text-uppercase logo__text'>
-              StoryWoxx
+              <Image src={logo} height={40} />
             </Link>
             {navLinks.map((link, index) => (
               <div key={`${id}-${index}`}>
