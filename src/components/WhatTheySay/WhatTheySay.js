@@ -80,7 +80,7 @@ const WhatTheySay = () => {
         rows: 2,
         fill: "row",
       }}
-      spaceBetween={30}
+      spaceBetween={50}
       modules={[Grid, Pagination]}
       breakpoints={{
         320: {

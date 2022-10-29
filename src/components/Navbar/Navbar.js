@@ -27,7 +27,7 @@ const Navbar = () => {
     },
     {
       title: "Portfolio",
-      link: "/portolio",
+      link: "/portfolio",
     },
     {
       title: "Blog",

@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Homepage from "./components/Homepage/Homepage";
 import NotFound from "./components/NotFound/NotFound";
 import ContactUs from "./components/ContactUs/ContactUs";
+import Portfolio from "./components/Portfolio/Portfolio";
 
 // stylessheets
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -18,7 +19,7 @@ const App = () => {
       <Route path='/' element={<Homepage />} />
       <Route path='about-us' element={<About />} />
       {/* <Route path='blog' element={<Blog />} /> */}
-      {/* <Route path='portfolio' element={<Portfolio />} /> */}
+      <Route path='portfolio' element={<Portfolio />} />
       <Route path='contact-us' element={<ContactUs />} />
       <Route path='*' element={<NotFound />} />
     </Routes>

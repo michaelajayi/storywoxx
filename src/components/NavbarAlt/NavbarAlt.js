@@ -23,7 +23,7 @@ const NavbarAlt = ({ bgImage, pageTitle, breadcrumbs }) => {
     },
     {
       title: "Portfolio",
-      link: "/portolio",
+      link: "/portfolio",
     },
     {
       title: "Blog",

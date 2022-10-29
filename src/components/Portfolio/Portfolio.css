@@ -1,0 +1,24 @@
+.portfolio-items__container {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+
+.portfolio-items__row {
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  column-gap: 2rem;
+  row-gap: 4rem;
+}
+
+/* @media screen and (min-width: 320px) and (max-width: 650px) {
+  .portfolio-items__row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1024px) {
+  .portfolio-items__row {
+    grid-template-columns: 1fr;
+  }
+} */

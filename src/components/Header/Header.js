@@ -62,7 +62,7 @@ const Header = () => {
         // }}
         navigation={true}
         modules={[Autoplay, Navigation, Keyboard, EffectFade]}
-        className='mySwiper header-swiper'
+        className='header-swiper'
         breakpoints={{
           320: {
             slidesPerView: 1,
