@@ -11,13 +11,13 @@
   row-gap: 4rem;
 }
 
-/* @media screen and (min-width: 320px) and (max-width: 650px) {
+@media screen and (min-width: 320px) and (max-width: 550px) {
   .portfolio-items__row {
     grid-template-columns: 1fr;
   }
 }
 
-@media screen and (min-width: 850px) and (max-width: 1024px) {
+/* @media screen and (min-width: 850px) and (max-width: 1024px) {
   .portfolio-items__row {
     grid-template-columns: 1fr;
   }
