@@ -1,20 +1,9 @@
 .about-intro__row {
   padding: 10rem 10rem;
 }
-.intro-text {
-  font-size: 1rem;
-  color: #878787;
-  line-height: 1.6em;
-  font-weight: 400;
-  /* width: 80%; */
-  inline-size: 90%;
-}
 
 .intro__sub__heading {
   font-size: 53px !important;
-}
-
-.intro-caption > p {
-  color: #6d6d6d;
-  font-size: 0.85rem;
+  /* inline-size: 95%; */
+  word-wrap: break-word;
 }

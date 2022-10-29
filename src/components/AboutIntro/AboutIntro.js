@@ -1,11 +1,11 @@
 import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Col, Container, Row } from "react-bootstrap";
 import { CgArrowLongRight } from "react-icons/cg";
+import { Link } from "react-router-dom";
 import FlatButton from "../../UIKit/Buttons/FlatButton";
 
+import SliderText from "../SliderText/SliderText";
 import "./AboutIntro.css";
-import lineImg from "../../assets/img/h2-line-img.png";
 
 const AboutIntro = () => {
   return (
@@ -16,9 +16,9 @@ const AboutIntro = () => {
       <Row className='about-intro__row gap-5 justify-content-center align-items-center'>
         <Col sm={12} md={12} lg={4} className='justify-self-end'>
           <div className='d-flex flex-column gap-3'>
-            <p className='sub__heading'>Our Business Thrives</p>
+            <p className='sub__heading'>What We Do</p>
             <h1 className='main__heading intro__sub__heading'>
-              Make your business boom
+              Brand and Marketing Agency
             </h1>
             <Link to='/about-us'>
               <FlatButton
@@ -31,23 +31,7 @@ const AboutIntro = () => {
           </div>
         </Col>
         <Col sm={12} md={12} lg={6}>
-          <div className='d-flex flex-column gap-4'>
-            <p className='intro-text'>
-              Neque volutpat ac tincidunt vitae semper quis lectus nulla at.
-              Nibh nisl id venenatis a condimentum. Libero justo laoreet sit
-              amet. Nisl nisi scelerisque eu ultrices vitae. Dolor sit amet
-              consectetur adipiscing elit pellentesque. Phasellus egestas tellus
-              rutrum tellus pellentesque eu. Sagittis purus sit amet volutpat.
-              Sed ullamcorper morbi tincidunt ornare massa potenti nullam ac
-              tortor vitae purus. faucibus ornare suspendisse. Donec enim diam
-              vulputate ut pharetra sit amet aliquam id. Eu mi bibendum neque
-              egestas congue purus non enim praesent.
-            </p>
-            <div className='intro-caption d-flex align-items-center gap-2'>
-              <Image src={lineImg} />
-              <p>Amet Volutpat, sagittis purus sit</p>
-            </div>
-          </div>
+          <SliderText />
         </Col>
       </Row>
     </Container>
