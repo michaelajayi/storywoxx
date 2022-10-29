@@ -19,33 +19,33 @@ const Portfolio = () => {
 
   const portfolioItems = [
     {
-      title: "Business",
+      title: "Madaani",
       category: "Design, Photography",
       img: bg01,
     },
     {
-      title: "Editing",
+      title: "Zed baby",
       category: "Art Design",
       img: bg02,
     },
     {
-      title: "Ideas",
+      title: "Wyse Water",
       category: "Design, Photography",
       img: bg03,
     },
     {
-      title: "Happiness",
+      title: "Lion and Jewel",
       category: "Art, Design",
       img: bg04,
     },
     {
-      title: "Life",
-      category: "Design, Photography",
+      title: "ADL Integrated Farms",
+      category: "Farms, Photography",
       img: bg05,
     },
     {
-      title: "Design",
-      category: "Art, Design",
+      title: "Keem Harun",
+      category: "Fashion, Design",
       img: bg06,
     },
   ];

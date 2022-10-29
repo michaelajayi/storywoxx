@@ -55,11 +55,12 @@ export default function OurBusinessThrives() {
           </h2>
         </div>
         <Row className='our-business-thrives__highlights gx-5 gy-5'>
-          {businessThrivesItems.map((item) => (
+          {businessThrivesItems.map((item, index) => (
             <Col
               sm={12}
               lg={4}
               className='d-flex flex-column align-items-start gap-3'
+              key={index}
             >
               <Image src={item.icon} />
               <h1 className='' style={{ fontSize: "25px" }}>

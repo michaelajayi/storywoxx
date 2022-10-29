@@ -1,13 +1,17 @@
-.what__they__say__box {
-  /* height: 380px;
-  width: 380px; */
-  /* position: relative; */
+.image-box {
+  height: 100%;
+  overflow: hidden;
 }
 
 .what__they__say__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.what__they__say__img:hover {
+  transform: scale(1.1);
 }
 
 .what__they__say__text {

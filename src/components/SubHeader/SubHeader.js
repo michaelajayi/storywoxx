@@ -31,7 +31,7 @@ const SubHeader = () => {
     >
       <Row className='subheader__wrapper justify-content-between bg-white'>
         {subHeaderItems.map((item, index) => (
-          <Col sm={12} md={6} lg={4}>
+          <Col sm={12} md={6} lg={4} key={index}>
             <div
               className={`d-flex flex-column align-items-start subheader__sub gap-3 ${
                 index === 2 && "d-none d-md-flex"

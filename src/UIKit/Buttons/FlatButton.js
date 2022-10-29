@@ -1,9 +1,21 @@
-import React, { useLayoutEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { Button as BoostrapButton } from "react-bootstrap";
 import "./FlatButton.css";
 import gsap from "gsap";
 
-const FlatButton = ({ text, bg, color, Icon }) => {
+import "./FlatButton.css";
+
+const FlatButton = ({ text, bg, color, Icon, borderColour }) => {
+  const buttonRef = useRef();
+
+  useEffect(() => {
+    buttonRef.current.style.setProperty(
+      "border",
+      `1px solid ${borderColour}`,
+      "important"
+    );
+  }, []);
+
   // const buttonRef = useRef();
   // const iconRef = useRef();
 
@@ -28,11 +40,15 @@ const FlatButton = ({ text, bg, color, Icon }) => {
 
   return (
     <BoostrapButton
-      style={{ background: bg, color: color }}
+      style={{
+        background: bg,
+        color: color,
+      }}
+      ref={buttonRef}
       className='px-5 py-4 default-button shadow-none border-0 rounded-0'
     >
       <div className='d-flex align-items-center justify-content-center gap-2'>
-        {text}
+        <p className='flat-button__text'>{text}</p>
         {Icon && <Icon />}
       </div>
     </BoostrapButton>

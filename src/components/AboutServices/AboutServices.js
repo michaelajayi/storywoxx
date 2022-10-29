@@ -57,7 +57,7 @@ const AboutServices = () => {
         <div className='featured__services d-flex flex-column flex-md-row justify-content-between align-items-center gap-5'>
           <Row className='gx-3 gy-5'>
             {featuredServices.map((service, index) => (
-              <Col sm={12} md={4} lg={4}>
+              <Col sm={12} md={4} lg={4} key={index}>
                 <div
                   className='d-flex flex-column align-items-center justify-content-center gap-2'
                   key={`${index}-${id}`}

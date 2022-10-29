@@ -4,3 +4,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
+
+.flat-button__text {
+  font-size: 14px;
+}

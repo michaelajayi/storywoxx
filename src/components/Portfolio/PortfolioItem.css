@@ -1,3 +1,16 @@
+.img-wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+
+.img-wrapper > img {
+  transition: transform 0.5s ease;
+}
+
+.img-wrapper > img:hover {
+  transform: scale(1.1);
+}
+
 .portfolio-item__texts > h3 {
   font-weight: 400;
   color: #171717;
