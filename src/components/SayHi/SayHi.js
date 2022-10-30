@@ -25,8 +25,8 @@ const SayHi = () => {
           <Image src={SayHiBanner} alt='' />
           <div className='d-flex flex-column gap-5'>
             <div className='d-flex flex-column gap-2'>
-              <p className='sub__heading'>Step in the right direction</p>
-              <h1 className='w-75'>
+              <p className='sub-heading'>Step in the right direction</p>
+              <h1 className='main-heading say-hi__heading'>
                 Don't be shy, please don't hesitate to say hi
               </h1>
             </div>

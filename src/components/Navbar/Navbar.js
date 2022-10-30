@@ -63,7 +63,9 @@ const Navbar = () => {
         {/* mobile menu  */}
         <header className='mobile-header'>
           <div className='mobile header d-flex align-items-center justify-content-between'>
-            <h2 className='nav__child text-uppercase logo__text'>StoryWoxx</h2>
+            <Link to='/' className='text-uppercase logo__text'>
+              <Image src={logo} height={40} />
+            </Link>
             <div
               className='d-flex align-items-center justify-content-end'
               onClick={onShowNavLinks}

@@ -49,10 +49,8 @@ export default function OurBusinessThrives() {
     >
       <div className='d-flex our-business-thrives__wrapper d-flex flex-column'>
         <div className='d-flex flex-column our-business-thrives__heading gap-2'>
-          <p className='sub__heading'>Our Business Thrives</p>
-          <h2 className='main__heading w-50'>
-            Our Core Features and Offerings
-          </h2>
+          <p className='sub-heading'>Our Business Thrives</p>
+          <h2 className='main-heading w-50'>Our Core Features and Offerings</h2>
         </div>
         <Row className='our-business-thrives__highlights gx-5 gy-5'>
           {businessThrivesItems.map((item, index) => (

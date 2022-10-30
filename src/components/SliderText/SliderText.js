@@ -1,5 +1,5 @@
 import React from "react";
-import { Keyboard, Pagination } from "swiper";
+import { Keyboard, Pagination, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Container } from "react-bootstrap";
@@ -36,12 +36,15 @@ const SliderText = () => {
         centeredSlides={true}
         grabCursor={true}
         loop={true}
+        autoplay={{
+          delay: 3000,
+        }}
         keyboard={{ enabled: true }}
         // navigation={true}
         pagination={{
           dynamicBullets: true,
         }}
-        modules={[Pagination, Keyboard]}
+        modules={[Autoplay, Pagination, Keyboard]}
       >
         {sliderTextItems.map((item, index) => (
           <SwiperSlide key={index}>

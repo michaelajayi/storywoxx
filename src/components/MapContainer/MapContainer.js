@@ -17,8 +17,8 @@ const MapContainer = () => {
         >
           <div className='d-flex flex-column gap-3 meet-our-team'>
             <div className='d-flex flex-column'>
-              <div className='sub__heading'>Step in the right direction</div>
-              <div className='main__heading w-75'>
+              <div className='sub-heading'>Step in the right direction</div>
+              <div className='main-heading w-75'>
                 Meet our team of experts creators in the Lagos Office
               </div>
             </div>

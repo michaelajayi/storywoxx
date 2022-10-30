@@ -5,6 +5,9 @@
 
 .img-wrapper > img {
   transition: transform 0.5s ease;
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
 }
 
 .img-wrapper > img:hover {

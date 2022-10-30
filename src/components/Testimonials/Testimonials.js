@@ -7,9 +7,7 @@ const Testimonials = () => {
   return (
     <Container fluid className='testimonials__wrapper'>
       <div className='testimonials-wrapper d-flex flex-column align-items-start'>
-        <p className='testimonials-sub__heading text-uppercase'>
-          Who are We?
-        </p>
+        <p className='testimonials-sub-heading text-uppercase'>Who are We?</p>
         <h4 className='testimonials-heading'>
           StoryWoxx is a full service, brand and marketing agency that delivers
           smarter, more effective digital assets

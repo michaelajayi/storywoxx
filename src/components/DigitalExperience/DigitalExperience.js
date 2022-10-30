@@ -19,8 +19,8 @@ const DigitalExperience = () => {
           className='px-5 digital-experience__right px-0'
         >
           <div className='d-flex flex-column align-items-start justify-content-end py-5 gap-2'>
-            <p className='sub__heading'>Brand and Marketing</p>
-            <h2 className='main__heading digital-experience__heading'>
+            <p className='sub-heading'>Brand and Marketing</p>
+            <h2 className='main-heading digital-experience__heading'>
               Smarter, more effective digital assets
             </h2>
             <RoundButton arrowColor='#000' />

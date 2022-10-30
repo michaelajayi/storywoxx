@@ -36,11 +36,9 @@ const DayToDayWork = () => {
     >
       <div className='dToday__wrapper d-flex flex-column justify-content-center align-items-center py-3'>
         <div className='dToday__heading d-flex flex-column align-items-center justify-content-center gap-2'>
-          <p className='sub__heading text-center'>We are Unique</p>
-          <h1 className='main__heading text-center'>
-            Our Value Differentiator
-          </h1>
-          {/* <h1 className='main__heading text-center'>Made Simple and easy</h1> */}
+          <p className='sub-heading text-center'>We are Unique</p>
+          <h1 className='main-heading text-center'>Our Value Differentiator</h1>
+          {/* <h1 className='main-heading text-center'>Made Simple and easy</h1> */}
         </div>
         <div className='featured__dToday d-flex flex-column flex-md-row justify-content-between align-items-center gap-5 mt-4'>
           {dayToDayArray.map((dToday, index) => (

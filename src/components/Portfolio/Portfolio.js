@@ -13,6 +13,7 @@ import bg03 from "../../assets/img/what-they-say/03.jpg";
 import bg04 from "../../assets/img/what-they-say/04.jpg";
 import bg05 from "../../assets/img/what-they-say/05.jpg";
 import bg06 from "../../assets/img/what-they-say/06.jpg";
+import madaani from "../../assets/img/projects/madaani-shirt.jpeg";
 
 const Portfolio = () => {
   const id = useId();

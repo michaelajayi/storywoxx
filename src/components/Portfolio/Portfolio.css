@@ -6,8 +6,8 @@
 .portfolio-items__row {
   width: 75%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-  column-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(30%, 100%), 1fr));
+  column-gap: 4rem;
   row-gap: 4rem;
 }
 

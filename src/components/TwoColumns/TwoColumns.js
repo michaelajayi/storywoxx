@@ -20,22 +20,18 @@ const TwoColumns = () => {
         >
           <div className='two-column__content__inner d-flex flex-column gap-3'>
             <div className='d-flex flex-column gap-1'>
-              <p className='sub__heading text-uppercase'>
-                Our Business Thrives
-              </p>
-              <h1 className='main__heading two-column__heading'>
+              <p className='sub-heading text-uppercase'>Our Business Thrives</p>
+              <h1 className='main-heading two-column__heading'>
                 Unique & modern business tips for our clients
               </h1>
             </div>
             <p className='two-column__text'>
-              Neque volutpat ac tincidunt vitae semper quis lectus nulla at.
-              Nibh nisl id venenatis a condimentum. Libero justo laoreet sit
-              amet. Nisl nisi scelerisque eu ultrices vitae. Dolor sit amet
-              consectetur adipiscing elit pellentesque.
+              StoryWoxx is a full service, brand and marketing agency that
+              delivers smarter, more effective digital assets
             </p>
             <Link>
               <FlatButton
-                text='View more'
+                text='Get started'
                 bg='transparent'
                 color='#171717'
                 Icon={CgArrowLongRight}
