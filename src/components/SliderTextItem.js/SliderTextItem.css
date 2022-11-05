@@ -1,0 +1,12 @@
+.intro-caption > p {
+  color: #6d6d6d;
+  font-size: 0.85rem;
+}
+
+.intro-text {
+  font-size: 1rem;
+  color: #878787;
+  line-height: 1.6em;
+  font-weight: 400;
+  inline-size: 90%;
+}

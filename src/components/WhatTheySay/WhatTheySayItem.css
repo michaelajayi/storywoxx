@@ -1,0 +1,27 @@
+.image-box {
+  height: 100%;
+  overflow: hidden;
+}
+
+.what__they__say__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.what__they__say__img:hover {
+  transform: scale(1.1);
+}
+
+.what__they__say__text {
+  font-size: 11px;
+  letter-spacing: 3.85px;
+  font-weight: 500;
+  background-color: #000;
+  color: rgb(255, 255, 255, 0.7);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}

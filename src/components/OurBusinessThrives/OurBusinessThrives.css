@@ -1,0 +1,20 @@
+.our-business-thrives__wrapper {
+  width: 80%;
+  max-width: 90%;
+  padding: 8rem 5rem;
+  gap: 4rem;
+}
+
+.our-business-thrives__heading {
+  width: 50%;
+}
+
+.our-business-thrives__heading > h2 {
+  font-size: 36px;
+}
+
+.our-business-thrives__text {
+  font-size: 16px;
+  color: #878787;
+  width: 90%;
+}

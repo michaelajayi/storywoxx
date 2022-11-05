@@ -1,0 +1,58 @@
+.image__container,
+.say__hi__content {
+  height: 780px;
+  position: relative;
+}
+
+.image__container {
+  position: relative;
+  min-height: 100%;
+}
+
+.say__hi__img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  z-index: -1;
+}
+
+.say__hi__content {
+  padding: 8rem !important;
+  min-height: 100%;
+}
+
+.say__hi__content > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* contact form styling */
+.form__control {
+  font-size: 0.85rem;
+  color: #6d6d6d;
+}
+
+.form__control:active,
+.form__control:focus {
+  color: #171717;
+}
+
+.form__control::placeholder,
+.form__control::-moz-placeholder {
+  color: #6d6d6d !important;
+}
+
+.contact__submit__btn {
+  font-size: 14px;
+}
+
+.say-hi__heading {
+  inline-size: 75%;
+}

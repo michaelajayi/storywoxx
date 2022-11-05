@@ -1,0 +1,21 @@
+.breadcrumb-container {
+  width: 100vw;
+  height: 18vh;
+  position: relative;
+}
+
+.breadcrumb-container__img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.breadcrumb-container-item {
+  font-size: 11px;
+  color: #8b8b8b;
+  line-height: 1.8em;
+  font-weight: 500;
+  letter-spacing: 0.35em;
+}

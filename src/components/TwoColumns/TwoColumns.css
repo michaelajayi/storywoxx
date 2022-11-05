@@ -1,0 +1,33 @@
+.two-column__img__container {
+  position: relative;
+  min-height: 100%;
+  height: 800px;
+}
+.two-column__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.two-column__content {
+  height: 800px;
+  padding-left: 5rem !important;
+  padding-right: 5rem !important;
+  padding-bottom: 3rem;
+  background: #f5f5f3;
+}
+
+.two-column__heading {
+  inline-size: 65%;
+  font-size: 36px !important;
+}
+
+.two-column__text {
+  inline-size: 70%;
+  color: #878787;
+  font-size: 1rem;
+}

@@ -1,0 +1,18 @@
+.menu-closed {
+  width: 4rem;
+  row-gap: 0.4rem;
+  cursor: pointer;
+  animation: 1s all;
+}
+
+/* .menu-closed:hover .top {
+  transform: translateX(-100%);
+}
+
+.menu-closed:hover .bottom {
+  transform: translateX(-100%);
+}
+
+.menu-closed:hover .middle {
+  transform: translateX(20%);
+} */

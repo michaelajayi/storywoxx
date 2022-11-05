@@ -1,0 +1,24 @@
+.review__container {
+  width: 50%;
+  max-width: 50%;
+}
+
+.review__text {
+  font-size: 36px;
+  color: #171717;
+  line-height: 1.22;
+}
+
+.review__heading {
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 3.85px;
+  color: #8b8b8b;
+}
+
+.review__author {
+  font-size: 14px;
+  line-height: 1.56px;
+  color: #6d6d6d;
+}
+
