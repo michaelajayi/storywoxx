@@ -33,7 +33,7 @@ const TwoColumnsLeft = ({title, subtitle, leftBanner, desc, buttonText, buttonLi
                 {title}
               </h1>
             </div>
-            <p className='two-columns-left__text'>
+            <p className='two-columns-left__text text-end'>
               {desc}
             </p>
             <Link to={buttonLink}>

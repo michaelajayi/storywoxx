@@ -1,9 +1,9 @@
 import React, { useId } from "react";
 import { Container } from "react-bootstrap";
 import Breadcrumbs from "../../UIKit/Breadcrumbs/Breadcrumbs";
+import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import PortfolioItem from "./PortfolioItem";
-import Footer from "../Footer/Footer";
 
 import "./Portfolio.css";
 
@@ -13,7 +13,6 @@ import bg03 from "../../assets/img/what-they-say/03.jpg";
 import bg04 from "../../assets/img/what-they-say/04.jpg";
 import bg05 from "../../assets/img/what-they-say/05.jpg";
 import bg06 from "../../assets/img/what-they-say/06.jpg";
-import madaani from "../../assets/img/projects/madaani-shirt.jpeg";
 
 const Portfolio = () => {
   const id = useId();
@@ -53,11 +52,12 @@ const Portfolio = () => {
   return (
     <>
       <Navbar />
-      <Breadcrumbs />
+      <Breadcrumbs breadcrumbs='home / portfolio' />
       <Container
         fluid
-        className='portfolio-items__container px-0 d-flex justify-content-center'
+        className='portfolio-items__container px-0 d-flex flex-column align-items-center justify-content-center gap-5'
       >
+        <h1 className='main-heading text-center'>Our Recent Projects</h1>
         <div className='portfolio-items__row px-0'>
           {portfolioItems.map((item, index) => (
             <div className='px-0 mx-0' key={`${index}-${id}`}>

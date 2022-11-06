@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <Container
       fluid
-      className='pt-5 pb-2 d-flex align-items-center justify-content-center footer__container'
+      className='pt-5 pb-2 d-flex align-items-center justify-content-center footer__container about-intro__row'
     >
       <div className='footer__wrapper d-flex flex-column justify-content-between gap-5'>
         <div className='our__brand d-flex flex-column flex-md-row align-items-baseline  align-items-md-center justify-content-between align-items-end'>

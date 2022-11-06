@@ -200,8 +200,8 @@ select {
   font-weight: 500;
   letter-spacing: 0.35em;
   line-height: 1.8em;
-  /* color: #8b8b8b; */
-  color: hsl(var(--clr-blue));
+  color: #8b8b8b;
+  /* color: hsl(var(--clr-blue)); */
 }
 
 .main-heading {

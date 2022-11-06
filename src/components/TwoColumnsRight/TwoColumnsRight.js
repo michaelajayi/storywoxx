@@ -1,13 +1,20 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import { CgArrowLongRight } from "react-icons/cg";
+import { Link } from "react-router-dom";
 import FlatButton from "../../UIKit/Buttons/FlatButton";
 
 import "./TwoColumnsRight.css";
-import TwoColumnImg from "../../assets/img/two-column-img.jpg";
 
-const TwoColumnsRight = ({ subtitle, title, rightBanner, desc, buttonLink, buttonText }) => {
+const TwoColumnsRight = ({
+  subtitle,
+  title,
+  rightBanner,
+  desc,
+  buttonLink,
+  buttonText,
+  buttonBg,
+}) => {
   return (
     <Container fluid className='px-0'>
       <Row>
@@ -25,9 +32,7 @@ const TwoColumnsRight = ({ subtitle, title, rightBanner, desc, buttonLink, butto
                 {title}
               </h1>
             </div>
-            <p className='two-columns-right__text'>
-             {desc}
-            </p>
+            <p className='two-columns-right__text'>{desc}</p>
             <Link to={buttonLink}>
               <FlatButton
                 text={buttonText}

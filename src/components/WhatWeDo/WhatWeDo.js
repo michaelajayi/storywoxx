@@ -38,7 +38,7 @@ const WnatWeDo = () => {
       />
       <TwoColumnsRight
         subtitle='03'
-        title='Digital Markerting Services'
+        title='Digital Marketing Services'
         rightBanner={digitalMarketing}
         buttonText='Learn More'
         buttonLink='digital-marketing'
