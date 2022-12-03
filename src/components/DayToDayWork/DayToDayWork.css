@@ -81,3 +81,13 @@
 .featured__dToday > * {
   width: 30%;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .featured__dToday > * {
+    width: 100%;
+  }
+
+  .dToday__text {
+    width: 100%;
+  }
+}

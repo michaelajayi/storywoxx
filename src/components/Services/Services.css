@@ -55,4 +55,12 @@
     width: 100%;
     gap: 5rem;
   }
+
+  .services__heading {
+    width: 100%;
+  }
+
+  .services__heading > h1 {
+    inline-size: 100%;
+  }
 }

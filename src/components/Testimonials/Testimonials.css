@@ -12,7 +12,16 @@
 
 .testimonials-heading {
   color: #171717;
-  font-size: 3.3rem;
+  /* font-size: 3.3rem; */
   line-height: 1.16;
   width: 50%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px) {
+  .testimonials-heading {
+    width: 100%;
+  }
+  .testimonials-wrapper {
+    padding-left: 1rem;
+  }
 }

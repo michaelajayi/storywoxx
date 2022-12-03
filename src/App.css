@@ -233,3 +233,13 @@ li::selection {
 /* html {
   font-size: calc(15px + 0.390625vw);
 } */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-heading {
+    font-size: 30px !important;
+  }
+
+  .sub-heading {
+    letter-spacing: .15em;
+  }
+}

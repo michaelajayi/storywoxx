@@ -11,3 +11,9 @@
 .what-we-do-text {
   font-size: 16px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .about-intro__row {
+    padding: 2rem 1rem;
+  }
+}

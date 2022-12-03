@@ -5,10 +5,10 @@ import "./Testimonials.css";
 
 const Testimonials = () => {
   return (
-    <Container fluid className='testimonials__wrapper'>
+    <Container fluid className='testimonials__wrapper bg-danger'>
       <div className='testimonials-wrapper d-flex flex-column align-items-start'>
         <p className='testimonials-sub-heading text-uppercase'>Who are We?</p>
-        <h4 className='testimonials-heading'>
+        <h4 className='testimonials-heading main-heading'>
           StoryWoxx is a full service, brand and marketing agency
         </h4>
         <WhatTheySay />

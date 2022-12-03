@@ -49,25 +49,28 @@ const HeaderItem = ({ item }) => {
             />
           </Link>
         </div>
-        <div className='subheader bg-white d-flex flex-column flex-md-row justify-content-around'>
+        <div className='subheader bg-white d-flex flex-column flex-md-row justify-content-around gap-5'>
           <div className='d-flex flex-column align-items-start gap-3'>
-            <h4 className='subheading__header'>Performance</h4>
+            <h4 className='subheading__header'>Systematic Approach</h4>
             <p className='subheading__text'>
-              Risus quis varius quam quisque id diam vel quam elementum.
+              A comprehensive process which is segmented into phases and varied
+              offerings. From product ideation to specialized marketing.
             </p>
             <RoundButton arrowColor='#000' />
           </div>
           <div className='d-flex flex-column align-items-start gap-3'>
-            <h4 className='subheading__header'>Accounting</h4>
+            <h4 className='subheading__header'>Multi-Disciplinary Creators</h4>
             <p className='subheading__text'>
-              Risus quis varius quam quisque id diam vel quam elementum.
+              Our agency consists of experienced marketers, strategists,
+              creatives and developers.
             </p>
             <RoundButton arrowColor='#000' />
           </div>
           <div className='d-flex flex-column align-items-start gap-3'>
-            <h4 className='subheading__header'>Planning</h4>
+            <h4 className='subheading__header'>Extension of Your Team</h4>
             <p className='subheading__text'>
-              Risus quis varius quam quisque id diam vel quam elementum.
+              Our agency consists of experienced marketers, strategists,
+              creatives and developers.
             </p>
             <RoundButton arrowColor='#000' />
           </div>

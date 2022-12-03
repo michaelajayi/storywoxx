@@ -6,10 +6,17 @@ import FlatButton from "../../UIKit/Buttons/FlatButton";
 
 import "./TwoColumnsLeft.css";
 
-const TwoColumnsLeft = ({title, subtitle, leftBanner, desc, buttonText, buttonLink}) => {
+const TwoColumnsLeft = ({
+  title,
+  subtitle,
+  leftBanner,
+  desc,
+  buttonText,
+  buttonLink,
+}) => {
   return (
     <Container fluid className='px-0'>
-      <Row>
+      <Row className='two-columns__left'>
         <Col
           sm={12}
           md={12}
@@ -24,18 +31,16 @@ const TwoColumnsLeft = ({title, subtitle, leftBanner, desc, buttonText, buttonLi
           md={12}
           lg={6}
           xl={6}
-          className='two-columns-left__content d-flex align-items-end'
+          className='two-columns-left__content d-flex'
         >
-          <div className='two-columns-left__content__inner d-flex flex-column gap-3 align-items-end'>
-            <div className='d-flex flex-column gap-1 align-items-end'>
+          <div className='two-columns-left__content__inner d-flex flex-column gap-3'>
+            <div className='d-flex flex-column gap-1 two-columns-text__div'>
               <p className='sub-heading text-uppercase'>{subtitle}</p>
-              <h1 className='main-heading two-columns-left__heading text-end'>
+              <h1 className='main-heading two-columns-left__heading'>
                 {title}
               </h1>
             </div>
-            <p className='two-columns-left__text text-end'>
-              {desc}
-            </p>
+            <p className='two-columns-left__text'>{desc}</p>
             <Link to={buttonLink}>
               <FlatButton
                 text={buttonText}

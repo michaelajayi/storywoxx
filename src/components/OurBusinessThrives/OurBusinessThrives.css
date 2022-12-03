@@ -18,3 +18,21 @@
   color: #878787;
   width: 90%;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .our-business-thrives__wrapper {
+    width: 100%;
+    max-width: 100%;
+    padding: 4rem 1rem;
+    gap: 4rem;
+  }
+
+  .our-business-thrives__heading {
+    width: 100%;
+  }
+
+  .our-business-thrives__heading > h2 {
+    inline-size: 100%;
+    width: 100% !important;
+  }
+}

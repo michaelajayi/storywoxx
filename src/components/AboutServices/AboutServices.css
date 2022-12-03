@@ -59,3 +59,17 @@
   line-height: 1.6em;
   /* width: 90%; */
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .services__container {
+    padding: 1rem !important;
+  }
+
+  .services__heading {
+    width: 100%;
+  }
+
+  .services__wrapper {
+    gap: 4rem !important;
+  }
+}
