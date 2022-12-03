@@ -6,29 +6,34 @@ import delivery from "../../UIKit/Icons/delivery.svg";
 import branding from "../../UIKit/Icons/branding.svg";
 import management from "../../UIKit/Icons/management.svg";
 
+import research from "../../assets/img/icons/research.png";
+import businessStrategy from "../../assets/img/icons/business-strategy.png";
+import brandMessage from "../../assets/img/icons/brand-message.png";
+import brandIdentity from "../../assets/img/icons/brand-identity.png";
+
 const Services = () => {
   const id = useId();
 
   const featuredServices = [
     {
-      heading: "Branding",
-      text: "Metus vulputate eu felis imperdiet proin nulla aliquet enim tortor at.",
-      icon: branding,
+      heading: "Research",
+      text: "Discover opportunities, understanding your how to elevate it to a whole new level, understand your competition and target audiences.",
+      icon: research,
     },
     {
-      heading: "Management",
-      text: "Metus vulputate eu felis imperdiet proin nulla aliquet enim tortor at.",
-      icon: management,
+      heading: "Brand Strategy",
+      text: "We will create a detailed step by step process to achieve success; linking purpose, style, messaging content and culture to profitability.",
+      icon: businessStrategy,
     },
     {
-      heading: "Design",
-      text: "Metus vulputate eu felis imperdiet proin nulla aliquet enim tortor at.",
-      icon: design,
+      heading: "Brand Identity",
+      text: "The image of your brand from design, color, logo and other visual components that create your overall identity.",
+      icon: brandIdentity,
     },
     {
-      heading: "Delivery",
-      text: "Metus vulputate eu felis imperdiet proin nulla aliquet enim tortor at.",
-      icon: delivery,
+      heading: "Brand Messaging",
+      text: "Your brands unique tone will be used across all content to convey your message to a target audience.",
+      icon: brandMessage,
     },
   ];
   return (
@@ -41,9 +46,9 @@ const Services = () => {
           <p className='sub-heading text-center'>A Multi-Disciplinary Team</p>
           <h1 className='main-heading text-center'>
             Brand Strategy, Digital Design, Development, and Online Marketing.
-          </h1>
+        </h1>
         </div>
-        <div className='featured__services d-flex flex-column flex-md-row justify-content-between align-items-center gap-5'>
+        <div className='d-flex flex-column flex-md-row justify-content-between align-items-center gap-5'>
           {featuredServices.map((service, index) => (
             <div
               className='d-flex flex-column align-items-center justify-content-center gap-2'

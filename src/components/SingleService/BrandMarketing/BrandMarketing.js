@@ -9,6 +9,7 @@ import bgImage from "../../../assets/img/digital-experience.jpg";
 import "./BrandMarketing.css";
 
 const BrandMarketing = () => {
+  
   const theHow = [
     {
       title: "Research",
@@ -40,11 +41,11 @@ const BrandMarketing = () => {
     },
   ];
   return (
-    <>
+    <Container fluid className='px-0'>
       <Navbar />
       <Breadcrumbs breadcrumbs='home / services / brand marketing' />
       {/* Brand Marketing Intro */}
-      <Container className='px-0 brand-intro__container'>
+      <Container className='px-0 brand-intro__container px-3'>
         <div className='d-flex flex-column gap-4'>
           <div className='d-flex flex-column gap-2'>
             <p className='brand-intro__subheading sub-heading'>
@@ -89,7 +90,7 @@ const BrandMarketing = () => {
             md={12}
             lg={6}
             xl={6}
-            className='d-flex align-items-center justify-content-center brand-story px-5'
+            className='d-flex align-items-center justify-content-center brand-story px-4'
           >
             <div className='d-flex flex-column gap-5'>
               <div className='d-flex flex-column gap-3'>
@@ -112,7 +113,7 @@ const BrandMarketing = () => {
       </Container>
 
       {/* Brand Marketing Highlights */}
-      <Container className='services-highlight px-0'>
+      <Container className='services-highlight px-3'>
         <div className='d-flex flex-column gap-2'>
           <p className='sub-heading'>Our Brand Strategy Process</p>
           <h1 className='main-heading services-highlight__heading'>
@@ -129,7 +130,7 @@ const BrandMarketing = () => {
         </div>
       </Container>
       <Footer />
-    </>
+    </Container>
   );
 };
 

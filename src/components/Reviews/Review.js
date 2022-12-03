@@ -16,9 +16,9 @@ const Review = () => {
 
   const reviews = [
     {
-      heading: "What They Say",
-      text: "Vulputate mi sit amet mauris commodo quis imperdiet. Metus vulputate eu felis imperdiet proin nulla aliquet enim.",
-      author: "Amet Vulpitat",
+      heading: "What We Do",
+      text: "We deliver smarter, more effective digital assets",
+      author: "We Tell The Best Stories",
       position: "Digital Marketing",
     },
     {

@@ -17,12 +17,11 @@ import sliderImg04 from "../../assets/img/about-slider-images/04.jpg";
 
 const AboutUsSlider = () => {
   return (
-    <Container fluid className='px-0'>
+    <Container fluid className='px-0 about-us-slider__container'>
       <Swiper
         slidesPerView={2}
         // slidesPerView={"auto"}
         spaceBetween={30}
-        // centeredSlides={true}
         grabCursor={true}
         loop={true}
         keyboard={{ enabled: true }}
@@ -31,6 +30,23 @@ const AboutUsSlider = () => {
           pauseOnMouseEnter: true,
         }}
         modules={[Autoplay, Keyboard]}
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 2,
+          },
+          1440: {
+            slidesPerView: 2,
+          },
+          1920: {
+            slidesPerView: 2,
+          },
+        }}
         className='mySwiper d-flex flex-column justify-content-center align-items-center'
       >
         <SwiperSlide>

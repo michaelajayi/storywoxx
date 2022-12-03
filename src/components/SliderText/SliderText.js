@@ -13,20 +13,24 @@ import SliderTextItem from "../SliderTextItem.js/SliderTextItem";
 const SliderText = () => {
   const sliderTextItems = [
     {
-      text: "For several years, we have developed a unique methodology combining the art and science of storytelling to help leaders inspire and galvanize their teams. Creating a simple, clear and emotionally-compelling narrative, our approach brings clarity and meaning, motivates everyone in the organization to explore what the story means for their part of the business, and how they can all play their part.",
+      text: "For several years, we have developed a unique methodology combining the art and science of storytelling to help leaders inspire and galvanize their teams. ",
       caption: "01",
     },
     {
-      text: "We are a dedicated team, offering a comprehensive approach to brand strategy, digital design, development, and online marketing. Our team chooses to work with brands that excite and inspire. Together, we are working to grow forward-thinking, relevant brands.",
+      text: "Creating a simple, clear and emotionally-compelling narrative, our approach brings clarity and meaning, motivates everyone in the organization to explore what the story means for their part of the business, and how they can all play their part.",
       caption: "02",
     },
     {
-      text: "We work within many individuals, businesses, government and NGOs; both conventional and unconventional. Specialized in reaching mass market consumers.",
+      text: "We are a dedicated team, offering a comprehensive approach to brand strategy, digital design, development, and online marketing. Our team chooses to work with brands that excite and inspire. Together, we are working to grow forward-thinking, relevant brands.",
       caption: "03",
+    },
+    {
+      text: "We work within many individuals, businesses, government and NGOs; both conventional and unconventional. Specialized in reaching mass market consumers.",
+      caption: "04",
     },
   ];
   return (
-    <Container className=''>
+    <Container className='px-0'>
       <Swiper
         style={{
           "--swiper-navigation-color": "#8b8b8b",
@@ -48,7 +52,8 @@ const SliderText = () => {
       >
         {sliderTextItems.map((item, index) => (
           <SwiperSlide key={index}>
-            <SliderTextItem item={item} />
+            {/* <SliderTextItem item={item} /> */}
+            <h1>Slider Item</h1>
           </SwiperSlide>
         ))}
       </Swiper>

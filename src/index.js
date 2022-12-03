@@ -5,6 +5,7 @@ import { store } from "./app/store";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import ScrollToTop from "./utils/ScrollToTop";
 // import './index.css';
 
 const container = document.getElementById("root");
@@ -13,9 +14,10 @@ const root = createRoot(container);
 root.render(
   <BrowserRouter>
     {/* <React.StrictMode> */}
-      <Provider store={store}>
-        <App />
-      </Provider>
+    <ScrollToTop />
+    <Provider store={store}>
+      <App />
+    </Provider>
     {/* </React.StrictMode> */}
   </BrowserRouter>
 );

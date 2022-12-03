@@ -25,8 +25,7 @@ const About = () => {
       <AboutIntro />
       <TwoColumns />
       <AboutServices />
-      {/* <AboutUsSlider /> */}
-      <VideoPlayerAbout />
+      <AboutUsSlider />
       <DayToDayWork />
       <SayHi />
       <Footer />

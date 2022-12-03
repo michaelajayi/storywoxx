@@ -70,3 +70,9 @@
   font-weight: 500;
   letter-spacing: 0.35em;
 }
+
+@media screen and (min-width: 320px) and (max-width: 727px) {
+  .navbar__alt__wrapper {
+    height: 350px;
+  }
+}

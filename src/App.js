@@ -11,18 +11,34 @@ import BrandMarketing from "./components/SingleService/BrandMarketing/BrandMarke
 import DigitalMarketing from "./components/SingleService/DigitalMarketing/DigitalMarketing";
 import WebDesign from "./components/SingleService/WebDevelopment/WebDevelopment";
 import WhatWeDo from "./components/WhatWeDo/WhatWeDo";
+import Blog from "./components/Blog/Blog";
 
 // stylessheets
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import "./MediaQueries.css";
-
+import ThePowerOfStoryTelling from "./components/Blog/Posts/ThePowerOfStoryTelling";
+import FourCommonWebsiteMistakes from "./components/Blog/Posts/FourCommonWebsiteMistakes";
+import BrandingVsMarketing from "./components/Blog/Posts/BrandingVsMarketing";
+ 
 const App = () => {
   return (
     <Routes>
       <Route path='/' element={<Homepage />} />
       <Route path='about-us' element={<About />} />
-      {/* <Route path='blog' element={<Blog />} /> */}
+      <Route path='blog' element={<Blog />}></Route>
+      <Route
+        path='blog/the-power-of-storytelling'
+        element={<ThePowerOfStoryTelling />}
+      />
+      <Route
+        path='blog/branding-vs-marketing'
+        element={<BrandingVsMarketing />}
+      />
+      <Route
+        path='blog/four-common-website-design-mistakes'
+        element={<FourCommonWebsiteMistakes />}
+      />
       <Route path='services' element={<WhatWeDo />} />
       <Route path='services/brand-marketing' element={<BrandMarketing />} />
       <Route path='services/web-development' element={<WebDesign />} />

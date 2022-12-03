@@ -12,9 +12,14 @@
   list-style: none;
 }
 
+.footer__sub__col > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__sub__col > ul > li > a:hover,
 .footer__sub__col > ul > li:hover {
   color: #878787;
-  cursor: pointer;
 }
 
 .footer__form {
@@ -28,6 +33,7 @@
   border: 0;
   color: #878787;
   font-size: 15px;
+  width: 90%;
 }
 
 .footer__form:focus-within {
@@ -77,4 +83,28 @@
   border-radius: 50%;
   border: 1px solid #9c9c9c;
   cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 650px) {
+  .footer__container {
+    padding-left: 1.5rem !important;
+    padding-right: 0 !important;
+    display: none;
+  }
+
+  .footer__form {
+    width: 100%;
+  }
+
+  .email__input {
+    width: 100%;
+  }
+
+  .footer__wrapper {
+    margin-top: 0;
+  }
+
+  .our__brand > h1 {
+    width: 80%;
+  }
 }

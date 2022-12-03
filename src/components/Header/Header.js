@@ -15,6 +15,7 @@ import "swiper/css/pagination";
 import bg01 from "../../assets/img/banner/01.png";
 import bg02 from "../../assets/img/banner/03.png";
 import bg03 from "../../assets/img/banner/02.png";
+import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
   const id = useId();
@@ -22,21 +23,21 @@ const Header = () => {
   const headerItems = [
     {
       small: "Story driven change",
-      title: "Brand and Marketing Agency",
+      title: "Creative Agency",
       buttonText: "Learn more",
       buttonUrl: "/about-us",
       bg: bg01,
     },
     {
       small: "Story driven change",
-      title: "Brand and Marketing Agency",
+      title: "Creative Agency",
       buttonText: "Learn More",
       buttonUrl: "/about-us",
       bg: bg02,
     },
     {
       small: "Story driven change",
-      title: "Brand and Marketing Agency",
+      title: "Creative Agency",
       buttonText: "Learn more",
       buttonUrl: "/about-us",
       bg: bg03,
@@ -44,6 +45,7 @@ const Header = () => {
   ];
   return (
     <Container fluid className='px-0 header__wrapper'>
+      {/* <Navbar /> */}
       <Swiper
         style={{
           "--swiper-navigation-color": "#fff",
@@ -60,8 +62,8 @@ const Header = () => {
         //   delay: 6000,
         //   disableOnInteraction: true,
         // }}
-        navigation={true}
-        modules={[Autoplay, Navigation, Keyboard, EffectFade]}
+        // navigation={true}
+        modules={[Autoplay, Keyboard, EffectFade]}
         className='header-swiper'
         breakpoints={{
           320: {
@@ -84,7 +86,7 @@ const Header = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <SubHeader />
+      {/* <SubHeader /> */}
     </Container>
   );
 };

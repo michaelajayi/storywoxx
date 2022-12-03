@@ -5,14 +5,14 @@ import "./WhatTheySay.css";
 
 import WhatTheySayItem from "./WhatTheySayItem";
 
-import bg01 from "../../assets/img/what-they-say/01.jpg";
-import bg02 from "../../assets/img/what-they-say/02.jpg";
-import bg03 from "../../assets/img/what-they-say/03.jpg";
-import bg04 from "../../assets/img/what-they-say/04.jpg";
-import bg05 from "../../assets/img/what-they-say/05.jpg";
-import bg06 from "../../assets/img/what-they-say/06.jpg";
-import bg07 from "../../assets/img/what-they-say/07.jpg";
-import bg08 from "../../assets/img/what-they-say/08.jpg";
+import bg01 from "../../assets/img/portfolios/01.jpg";
+import bg02 from "../../assets/img/portfolios/02.jpg";
+import bg03 from "../../assets/img/portfolios/03.jpg";
+import bg04 from "../../assets/img/portfolios/04.jpg";
+import bg05 from "../../assets/img/portfolios/05.jpg";
+import bg06 from "../../assets/img/portfolios/06.jpg";
+import bg07 from "../../assets/img/portfolios/07.jpg";
+import bg08 from "../../assets/img/portfolios/08.jpg";
 
 import "swiper/css";
 import "swiper/css/grid";

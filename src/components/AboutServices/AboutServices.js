@@ -1,11 +1,13 @@
 import React, { useId } from "react";
 import { Container, Image, Row, Col } from "react-bootstrap";
 import "./AboutServices.css";
-import design from "../../UIKit/Icons/design.svg";
-import delivery from "../../UIKit/Icons/delivery.svg";
-import branding from "../../UIKit/Icons/branding.svg";
-import management from "../../UIKit/Icons/management.svg";
 
+import think from "../../assets/img/business-thrives-icons/think.png";
+import trust from "../../assets/img/business-thrives-icons/trust.png";
+import authentic from "../../assets/img/business-thrives-icons/authentic.png";
+import moveFast from "../../assets/img/business-thrives-icons/move-fast.png";
+import resultsDriven from "../../assets/img/business-thrives-icons/results-driven.png";
+import unique from "../../assets/img/business-thrives-icons/unique.png";
 const AboutServices = () => {
   const id = useId();
 
@@ -13,33 +15,32 @@ const AboutServices = () => {
     {
       heading: "Establish Trust",
       text: "Focused on integrity in all we do a	nd within our relationships.",
-      icon: design,
+      icon: trust,
     },
     {
       heading: "Think Big",
       text: "Let’s leave the simple behind. We aim to uncover the big idea and work together to identify what makes you different, and build around those factors.",
-      icon: branding,
+      icon: think,
     },
     {
       heading: "Move Fast",
       text: "Quick to respond through efficient action, centered on effectiveness and speed.",
-      icon: delivery,
-    },
-    {
-      heading: "Be Authentic",
-      text: "Everything has a story. Uncovering that story, and then clearly bring it forward and aligned with your brand promises..",
-      icon: delivery,
+      icon: moveFast,
     },
     {
       heading: "Build Work We Believe In",
       text: "We aim to create unique offerings that act as a differentiator in your space. Be positively inspiring.",
-      icon: management,
+      icon: authentic,
     },
-
+    {
+      heading: "Be Authentic",
+      text: "Everything has a story. Uncovering that story, and then clearly bring it forward and aligned with your brand promises..",
+      icon: unique,
+    },
     {
       heading: "Results Driven",
       text: "Identify growth opportunities and maintain flexibility and drive, to reach new marketing & brand goals.",
-      icon: delivery,
+      icon: resultsDriven,
     },
   ];
   return (

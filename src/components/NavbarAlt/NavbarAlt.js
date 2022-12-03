@@ -56,9 +56,11 @@ const NavbarAlt = ({ bgImage, pageTitle, breadcrumbs }) => {
             hi@storywoxx.com
           </a>
           <a href='tel:+234 123 456 7890' className='py-0'>
-            +234 123 456 7890
+            +44(0) 7511 788638
           </a>
-          <p className='py-0'>8 Dejo Adeleye Street, Abijo GRA, Lekki</p>
+          <p className='py-0'>
+            1 Mount Mascal, North Cray Road, Bexley DA5 3NH
+          </p>
         </div>
         <div className='navbar__social__icons d-flex justify-content-start align-items-center gap-2'>
           <a href='twitter.com'>
@@ -67,7 +69,7 @@ const NavbarAlt = ({ bgImage, pageTitle, breadcrumbs }) => {
           <a href='facebook.com'>
             <FaFacebookF size={12} />
           </a>
-          <a href='linkedin.com'>
+          <a href='instagram.com/StoryWoxx'>
             <FaLinkedinIn size={12} />
           </a>
         </div>
@@ -92,7 +94,7 @@ const NavbarAlt = ({ bgImage, pageTitle, breadcrumbs }) => {
         </header>
 
         {/* mobile menu  */}
-        <header className='mobile-header'>
+        {/* <header className='mobile-header'>
           <div className='mobile header d-flex align-items-center justify-content-between'>
              <Link to='/' className='text-uppercase logo__text'>
               <Image src={logo} height={40} />
@@ -115,7 +117,7 @@ const NavbarAlt = ({ bgImage, pageTitle, breadcrumbs }) => {
               ))}
             </div>
           )}
-        </header>
+        </header> */}
       </div>
       <div className='navbar__breadcrumb d-flex flex-column align-items-center justify-content-center gap-2 text-white'>
         <h1>{pageTitle}</h1>

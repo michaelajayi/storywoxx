@@ -1,6 +1,7 @@
 .video__wrapper {
-  width: 90%;
-  height: 95vh;
+  width: 100vw;
+  max-width: 90%;
+  height: 100vh;
   position: relative;
 }
 
@@ -12,4 +13,9 @@
   width: 100%;
   object-fit: cover;
   object-position: top center;
+}
+
+.video-player__container {
+  height: 100vh;
+  width: 100vw;
 }

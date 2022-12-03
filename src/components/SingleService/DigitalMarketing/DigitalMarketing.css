@@ -1,0 +1,127 @@
+.digital-intro__container {
+  margin-block: 5rem;
+}
+
+.digital-marketing__container {
+  margin-block: 10rem;
+}
+
+.digital-marketing__title {
+    inline-size: 70%;
+}
+
+.digital-intro__heading {
+  font-size: 53px !important;
+  inline-size: 50%;
+}
+
+.digital-intro__desc {
+  font-size: 21px;
+  color: #575757;
+  inline-size: 70%;
+}
+
+.digital-intro__sub {
+  inline-size: 65%;
+}
+
+.services-highlight {
+  margin-block: 5rem;
+}
+
+.services-highlight__heading {
+  font-size: 53px !important;
+  inline-size: 50%;
+}
+
+.services-highlight__items {
+  margin-block: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(20%, 100%), 1fr));
+  row-gap: 3rem;
+  column-gap: 3rem;
+}
+
+.services-highlight__items > * > h4 {
+  font-size: 20px;
+  color: #171717;
+}
+
+.services-highlight__items > * > p {
+  font-size: 14px;
+  color: #878787;
+}
+
+/* .image-showcase {
+  height: 40vh;
+  position: relative;
+  margin-block: 8rem;
+}
+
+.image-showcase > img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center center;
+} */
+
+.digital-marketing {
+  background: #f5f5f3;
+  height: 600px;
+}
+
+.digital-marketing__cover {
+  height: 600px;
+}
+
+.digital-marketing__cover > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.digital-marketing__desc {
+  font-size: 21px;
+  color: #575757;
+  inline-size: 90%;
+}
+
+.digital-marketing__sub {
+  inline-size: 90%;
+}
+
+/* media query */
+@media screen and (min-width: 350px) and (max-width: 768px) {
+  .services-highlight__items {
+    grid-template-columns: repeat(auto-fill, minmax(min(30%, 100%), 1fr));
+  }
+
+  .services-highlight {
+    margin-block: 1rem;
+  }
+
+  .services-highlight__heading {
+    inline-size: 100%;
+  }
+
+  .digital-intro__heading {
+    inline-size: 80%;
+  }
+
+  .digital-intro__desc,
+  .digital-intro__sub {
+    inline-size: 100%;
+  }
+
+  .digital-intro__container {
+    margin-block: 5rem;
+  }
+
+  .digital-marketing__container {
+    margin-block: 5rem;
+  }
+}

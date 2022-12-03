@@ -5,7 +5,7 @@ import gsap from "gsap";
 
 import "./FlatButton.css";
 
-const FlatButton = ({ text, bg, color, Icon, borderColour }) => {
+const FlatButton = ({ text, bg, color, Icon, borderColour, onClick }) => {
   const buttonRef = useRef();
 
   useEffect(() => {
@@ -44,8 +44,9 @@ const FlatButton = ({ text, bg, color, Icon, borderColour }) => {
         background: bg,
         color: color,
       }}
+      onClick={onClick}
       ref={buttonRef}
-      className='px-5 py-4 default-button shadow-none border-0 rounded-0'
+      className='px-5 py-4 default-button shadow-none border-0 rounded-0 my-4'
     >
       <div className='d-flex align-items-center justify-content-center gap-2'>
         <p className='flat-button__text'>{text}</p>

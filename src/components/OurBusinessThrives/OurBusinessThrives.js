@@ -2,42 +2,42 @@ import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import "./OurBusinessThrives.css";
 
-import va from "../../assets/img/business-thrives-icons/va.png";
-import cfe from "../../assets/img/business-thrives-icons/cfe.png";
-import cube from "../../assets/img/business-thrives-icons/cube.png";
-import globe from "../../assets/img/business-thrives-icons/globe.png";
-import hDot from "../../assets/img/business-thrives-icons/h-dot.png";
-import r from "../../assets/img/business-thrives-icons/r.png";
+import think from "../../assets/img/business-thrives-icons/think.png";
+import trust from "../../assets/img/business-thrives-icons/trust.png";
+import authentic from "../../assets/img/business-thrives-icons/authentic.png";
+import moveFast from "../../assets/img/business-thrives-icons/move-fast.png";
+import resultsDriven from "../../assets/img/business-thrives-icons/results-driven.png";
+import unique from '../../assets/img/business-thrives-icons/unique.png';
 
 export default function OurBusinessThrives() {
   const businessThrivesItems = [
     {
-      icon: va,
+      icon: think,
       title: "Think Big",
       text: "Let’s leave the simple behind. We aim to uncover the big idea and work together to identify what makes you different, and build around those factors. ",
     },
     {
-      icon: globe,
+      icon: unique,
       title: "Build Work We Believe In",
       text: "We aim to create unique offerings that act as a differentiator in your space. Be positively inspiring.",
     },
     {
-      icon: r,
+      icon: trust,
       title: "Establish Trust",
       text: "Focused on integrity in all we do and within our relationships.",
     },
     {
-      icon: cube,
+      icon: authentic,
       title: "Be Authentic",
       text: "Everything has a story. Uncovering that story, and then clearly bring it forward and aligned with your brand promises. ",
     },
     {
-      icon: hDot,
+      icon: moveFast,
       title: "Move Fast",
       text: "Quick to respond through efficient action, centered on effectiveness and speed. ",
     },
     {
-      icon: cfe,
+      icon: resultsDriven,
       title: "Results Driven",
       text: "Identify growth opportunities and maintain flexibility and drive, to reach new marketing & brand goals.",
     },

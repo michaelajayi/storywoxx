@@ -194,6 +194,10 @@ select {
   line-height: 1.1;
 }
 
+.text-accent {
+  color: var(--clr-orange) !important;
+}
+
 .sub-heading {
   text-transform: uppercase;
   font-size: 11px;
@@ -201,7 +205,8 @@ select {
   letter-spacing: 0.35em;
   line-height: 1.8em;
   color: #8b8b8b;
-  /* color: hsl(var(--clr-blue)); */
+  color: hsl(var(--clr-blue));
+  /* color: hsl(241 83% 12%); */
 }
 
 .main-heading {
@@ -223,3 +228,8 @@ li::selection {
   background: #171717;
   color: #fff;
 }
+
+/* responsive font size */
+/* html {
+  font-size: calc(15px + 0.390625vw);
+} */

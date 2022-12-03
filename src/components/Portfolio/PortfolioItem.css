@@ -1,6 +1,7 @@
 .img-wrapper {
   height: 100%;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .img-wrapper > img {

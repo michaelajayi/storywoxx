@@ -1,5 +1,5 @@
 .navbar__wrapper {
-  height: 8vh;
+  /* height: 8vh; */
 }
 .site__logo {
   object-fit: contain;
@@ -46,6 +46,7 @@
 .mobile__menu {
   flex-direction: column;
   gap: 0.6rem;
+  width: 100%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 1024px) {
@@ -53,5 +54,21 @@
     grid-template-areas:
       "logo menuBtn"
       "navlinks navlinks";
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-menu {
+    display: block !important;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .desktop-menu {
+    display: none;
   }
 }

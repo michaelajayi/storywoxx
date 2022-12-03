@@ -1,3 +1,36 @@
 .meet-our-team {
   padding: 2rem 5rem;
 }
+
+.contact-item__heading {
+  font-weight: 500;
+}
+
+.contact-item__address {
+  color: #171717;
+}
+
+.contact-item__links {
+  color: #171717;
+}
+
+.contact-item__address:hover,
+.contact-item__links:hover {
+  color: #878787;
+}
+
+.contact-item__main__heading {
+  inline-size: 83%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 650px) {
+  .meet-our-team {
+    padding: 1rem 2rem;
+  }
+
+  .contact-item__main__heading {
+    inline-size: 90%;
+    font-size: 35px !important;
+  }
+}
+

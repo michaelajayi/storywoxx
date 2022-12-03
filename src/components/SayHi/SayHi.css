@@ -56,3 +56,13 @@
 .say-hi__heading {
   inline-size: 75%;
 }
+
+@media screen and (min-width: 320px) and (max-width: 650px) {
+  .say__hi__content {
+    padding: 2rem !important;
+  }
+
+  .say-hi__heading {
+    inline-size: 90%;
+  }
+}

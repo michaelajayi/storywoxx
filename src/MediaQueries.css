@@ -5,10 +5,10 @@
   .navlinks {
     display: none !important;
   }
-
+/* 
   .desktop-header {
     display: none !important;
-  }
+  } */
 }
 
 @media screen and (min-width: 320px) and (max-width: 1024px) {
@@ -19,8 +19,8 @@
 }
 
 /* large screens */
-@media screen and (min-width: 1025px) {
+/* @media screen and (min-width: 1025px) {
   .mobile-header {
     display: none;
   }
-}
+} */

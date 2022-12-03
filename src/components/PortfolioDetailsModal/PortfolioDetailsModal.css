@@ -1,0 +1,35 @@
+.portfolio-details__heading {
+  /* font-size: 30px; */
+}
+
+.portfolio-details__subheading {
+  font-size: 11px;
+  line-height: 1.8em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #8b8b8b;
+}
+
+.portfolio-details__category {
+  font-size: 11px;
+  line-height: 1.8em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+color: #171717;
+}
+
+.portfolio-details__desc {
+  font-size: 14px;
+  line-height: 1.8em;
+  font-weight: 400;
+  color: #171717;
+  /* inline-size: 90%; */
+}
+
+.portfolio-details__gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
