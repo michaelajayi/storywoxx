@@ -119,7 +119,7 @@ const NavbarAlt = ({ bgImage, pageTitle, breadcrumbs }) => {
       </Container>
 
       <Container fluid className='mobile-menu px-0'>
-        <div className='mobile-menu__wrapper d-flex justify-content-between w-100 py-3 px-3 w-100'>
+        <div className='mobile-menu__wrapper d-flex justify-content-between bg-white w-100 py-3 px-3 w-100'>
           <Link to='/' className='text-uppercase logo__text'>
             <Image src={logoDark} height={40} />
           </Link>
@@ -137,7 +137,7 @@ const NavbarAlt = ({ bgImage, pageTitle, breadcrumbs }) => {
           )}
         </div>
         <div
-          className={`mobile-navlinks px-3 py-2 ${
+          className={`mobile-navlinks px-3 py-2 bg-white ${
             showMobileNav ? "mobile-nav-shown" : "mobile-nav-hidden"
           }`}
         >
