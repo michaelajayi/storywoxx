@@ -12,7 +12,6 @@ import RelatedPosts from "../RelatedPosts";
 import "./ThePowerOfStoryTelling.css";
 
 const BrandingVsMarketing = () => {
-
   return (
     <>
       <Navbar />
@@ -173,7 +172,7 @@ const BrandingVsMarketing = () => {
           >
             <Card.Img variant='top' src={authorImg} className='rounded-0' />
             <Card.Body className='author-card-body d-flex flex-column gap-3'>
-              <Card.Title className='author-fullname'>Sally Forest</Card.Title>
+              <Card.Title className='author-fullname'>StoryWoxx</Card.Title>
               <Card.Text className='author-bio'>
                 Alienum phaedrum torquatos nec eu, vis detraxit periculis ex,
                 nihil expetendis in mei sui an pericula
