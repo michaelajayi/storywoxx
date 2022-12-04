@@ -1,4 +1,4 @@
-.navbar__alt__wrapper {
+.navbar-alt-wrapper {
   position: relative;
   width: 100vw;
   height: 585px;
@@ -72,7 +72,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 727px) {
-  .navbar__alt__wrapper {
-    height: 350px;
+  .navbar-alt-wrapper {
+    height: 400px;
   }
 }

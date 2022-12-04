@@ -3,7 +3,7 @@ import React, { useLayoutEffect, useRef } from "react";
 import styled from "styled-components";
 import "./MenuIcon.css";
 
-const MenuIcon = ({ color }) => {
+const MenuIcon = ({ color, onClick }) => {
   const menuIconsRef = useRef();
   const topRef = useRef();
   const bottomRef = useRef();
@@ -45,6 +45,7 @@ const MenuIcon = ({ color }) => {
       ref={menuIconsRef}
       onMouseEnter={onMouseEnterHandler}
       onMouseLeave={onMouseLeaveHandler}
+      onClick={onClick}
     >
       <Line className='top' ref={topRef} />
       <Line className='align-self-start middle' ref={middleRef} />

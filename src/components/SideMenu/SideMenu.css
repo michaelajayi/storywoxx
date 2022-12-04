@@ -1,0 +1,83 @@
+.sidemenu-container {
+  height: 100vh;
+  width: 0vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8rem 4rem !important;
+  background: #212121;
+  z-index: 2;
+}
+
+.sidemenu-container and :not(*) {
+  transition: width 1s ease-in-out;
+}
+
+.sidemenu-container-closed {
+  width: 0vw !important;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sidemenu-container-open {
+  width: 35vw !important;
+  opacity: 1;
+  pointer-events: all;
+}
+
+.sidemenu-container::before {
+  content: "";
+  background-image: url("../../assets/img/sidearea-bg-img.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.menu-close-icon {
+  background-size: cover;
+  object-fit: cover;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  z-index: -1;
+  cursor: pointer;
+}
+
+.sidemenu-contact__item {
+  color: #fff;
+  font-size: 15px !important;
+}
+
+.sidemenu-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidemenu-contact__item:hover,
+.sidemenu-link:hover {
+  color: #878787;
+}
+
+.sidemenu-subheading,
+.sidemenu-main-heading {
+  color: #fff !important;
+}
+
+.sidemenu-text {
+  font-weight: 300;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.sidemenu-subheading {
+  font-weight: 300 !important;
+}
