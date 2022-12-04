@@ -58,10 +58,10 @@ const Header = () => {
         effect={"fade"}
         loop={true}
         keyboard={{ enabled: true }}
-        // autoplay={{
-        //   delay: 6000,
-        //   disableOnInteraction: true,
-        // }}
+        autoplay={{
+          delay: 6000,
+          disableOnInteraction: true,
+        }}
         // navigation={true}
         modules={[Autoplay, Keyboard, EffectFade]}
         className='header-swiper'
