@@ -51,9 +51,9 @@ const AboutIntro = () => {
               both conventional and unconventional. Specialized in reaching mass
               market consumers.
             </p>
-            <Link to='/about-us'>
+            <Link to='/services'>
               <FlatButton
-                text='View more'
+                text='Our Services'
                 bg='black'
                 color='white'
                 Icon={CgArrowLongRight}

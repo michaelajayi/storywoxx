@@ -56,19 +56,19 @@ const Footer = () => {
             </ul>
           </div>
           <div className='footer__sub__col'>
-            <h4 className='footer__sub__heading text-uppercase my-2'>Lagos</h4>
-            <ul className='text-light d-flex flex-column gap-2 px-0'>
-              <li>hi@storywoxx.com</li>
-              <li>8 Dejo Adeleye Street, Abijo GRA, Lekki</li>
-              <li>+234 123 456 7890</li>
-            </ul>
-          </div>
-          <div className='footer__sub__col'>
             <h4 className='footer__sub__heading text-uppercase my-2'>London</h4>
             <ul className='text-light d-flex flex-column gap-2 px-0'>
               <li>hi@storywoxx.com</li>
               <li>1 Mount Mascal, North Cray Road, Bexley DA5 3NH</li>
               <li>+44(0) 7511 788638</li>
+            </ul>
+          </div>
+          <div className='footer__sub__col'>
+            <h4 className='footer__sub__heading text-uppercase my-2'>Lagos</h4>
+            <ul className='text-light d-flex flex-column gap-2 px-0'>
+              <li>hi@storywoxx.com</li>
+              <li>8 Dejo Adeleye Street, Abijo GRA, Lekki</li>
+              <li>+234 123 456 7890</li>
             </ul>
           </div>
         </div>

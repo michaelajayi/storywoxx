@@ -9,6 +9,7 @@ import RoundButton from "../../UIKit/Buttons/RoundButton";
 import { blog } from "../../utils/blog.js";
 
 import authorImg from "../../assets/img/author-img.jpeg";
+import blogAuthorImg from "../../assets/img/blog-author-img.jpg";
 import { Link } from "react-router-dom";
 
 export const BlogContainer = () => {
@@ -24,12 +25,12 @@ export const BlogContainer = () => {
             style={{ width: "20rem" }}
             className='rounded-0 px-0 border-0 author-card-blog'
           >
-            <Card.Img variant='top' src={authorImg} className='rounded-0' />
+            <Card.Img variant='top' src={blogAuthorImg} className='rounded-0' />
             <Card.Body className='author-card-body d-flex flex-column gap-3'>
               <Card.Title className='author-fullname'>StoryWoxx</Card.Title>
               <Card.Text className='author-bio'>
-                Alienum phaedrum torquatos nec eu, vis detraxit periculis ex,
-                nihil expetendis in mei sui an pericula
+                Creating a simple, clear and emotionally-compelling narrative,
+                our approach brings clarity and meaning.
               </Card.Text>
               <div className='author-social-links d-flex justify-content-start align-items-center gap-2'>
                 <a href='facebook.com' className='text-dark'>

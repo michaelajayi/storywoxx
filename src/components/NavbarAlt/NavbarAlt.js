@@ -66,12 +66,12 @@ const NavbarAlt = ({ bgImage, pageTitle, breadcrumbs }) => {
               <a href='mailto:hi@storywoxx.com' className='py-0'>
                 hi@storywoxx.com
               </a>
-              <a href='tel:+234 123 456 7890' className='py-0'>
+              {/* <a href='tel:+234 123 456 7890' className='py-0'>
                 +44(0) 7511 788638
               </a>
               <p className='py-0'>
                 1 Mount Mascal, North Cray Road, Bexley DA5 3NH
-              </p>
+              </p> */}
             </div>
             <div className='navbar__social__icons d-flex justify-content-start align-items-center gap-2'>
               <a href='twitter.com'>
@@ -85,7 +85,7 @@ const NavbarAlt = ({ bgImage, pageTitle, breadcrumbs }) => {
               </a>
             </div>
           </div>
-          <div className='navbar__header px-0 py-3 bg-danger'>
+          <div className='navbar__header px-0 py-3'>
             <header className='d-flex desktop-header justify-content-between align-items-center'>
               <div className='navlinks left__nav d-flex align-items-center justify-content-start px-2'>
                 <Link to='/' className='text-uppercase logo__text__alt'>
