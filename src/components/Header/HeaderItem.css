@@ -82,19 +82,26 @@
   }
 
   .subheader {
-    /* position: absolute; */
-    height: 30vh;
+    margin-top: 10rem;
+    /* position: relative; */
+    /* top: 5%; */
+    /* height: 30vh; */
+    width: 100%;
+    padding-left: 2rem;
     width: 100%;
     grid-template-columns: 1fr;
   }
 
-  .header-text {
-    font-size: 3.5rem;
+  .subheading__text {
+    inline-size: 100%;
   }
 
-  .subheader {
-    padding-left: 2rem;
-    width: 100%;
+  .subheading__header {
+    inline-size: 100%;
+  }
+
+  .header-text {
+    font-size: 3.5rem;
   }
 }
 
