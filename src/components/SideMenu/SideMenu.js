@@ -22,15 +22,15 @@ const SideMenu = ({ isOpen, hideSideMenu }) => {
       <div className='top-section d-flex flex-column align-items-start gap-3'>
         <div className='sidemenu-headings'>
           <p className='sub-heading sidemenu-subheading'>
-            Elevate Your Business Sith
+            Brand Marketing Agency
           </p>
-          <h1 className='main-heading sidemenu-main-heading'>Valiance Theme</h1>
+          <h1 className='main-heading sidemenu-main-heading'>StoryWoxx</h1>
         </div>
         <p className='sidemenu-text'>
-          Limitless customization options & Elementor compatibility let anyone
-          create a beautiful website with Valiance.
+          StoryWoxx is a full service, brand and marketing agency that delivers
+          smarter, more effective digital assets
         </p>
-        <Link to='somewhere'>
+        <Link to='/about-us'>
           <RoundButton arrowColor='#fff' />
         </Link>
       </div>
@@ -41,16 +41,16 @@ const SideMenu = ({ isOpen, hideSideMenu }) => {
             href='mailto:valiance@qodeinteractive.com'
             className='sidemenu-contact__item sidemenu-link'
           >
-            valiance@qodeinteractive.com
+            hi@storywoxx.com
           </a>
           <p className='sidemenu-contact__item'>
-            Maria-Theresien-Platz, 1010 Wien
+            1 Mount Mascal, North Cray Road, Bexley DA5 3NH
           </p>
           <a
             href='phone:156-677-124-442-2887'
             className='sidemenu-contact__item sidemenu-link'
           >
-            156-677-124-442-2887
+            +44(0) 7511 788638
           </a>
         </div>
       </div>
