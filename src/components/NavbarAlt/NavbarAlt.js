@@ -85,7 +85,7 @@ const NavbarAlt = ({ bgImage, pageTitle, breadcrumbs }) => {
               </a>
             </div>
           </div>
-          <div className='navbar__header px-0 py-3'>
+          <div className='navbar__header px-0 py-3 bg-danger'>
             <header className='d-flex desktop-header justify-content-between align-items-center'>
               <div className='navlinks left__nav d-flex align-items-center justify-content-start px-2'>
                 <Link to='/' className='text-uppercase logo__text__alt'>
