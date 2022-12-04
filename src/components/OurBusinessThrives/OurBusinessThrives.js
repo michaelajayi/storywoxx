@@ -47,24 +47,24 @@ export default function OurBusinessThrives() {
       fluid
       className='our-business-thrives d-flex justify-content-center align-items-center px-0'
     >
-      <div className='d-flex our-business-thrives__wrapper d-flex flex-column'>
+      <div className='d-flex our-business-thrives__wrapper d-flex flex-column justify-content-center align-items-center'>
         <div className='d-flex flex-column our-business-thrives__heading gap-2'>
-          <p className='sub-heading'>Our Business Thrives</p>
-          <h2 className='main-heading w-50'>Our Core Features and Offerings</h2>
+          <p className='sub-heading text-center text-lg-start'>Our Business Thrives</p>
+          <h2 className='main-heading w-100 text-center text-lg-start'>Our Core Features and Offerings</h2>
         </div>
         <Row className='our-business-thrives__highlights gx-5 gy-5'>
           {businessThrivesItems.map((item, index) => (
             <Col
               sm={12}
               lg={4}
-              className='d-flex flex-column align-items-start gap-3'
+              className='d-flex flex-column align-items-center align-items-lg-start gap-3'
               key={index}
             >
               <Image src={item.icon} />
-              <h1 className='' style={{ fontSize: "25px" }}>
+              <h1 className='text-center text-lg-start' style={{ fontSize: "25px" }}>
                 {item.title}
               </h1>
-              <p className='our-business-thrives__text'>{item.text}</p>
+              <p className='our-business-thrives__text text-center text-lg-start'>{item.text}</p>
             </Col>
           ))}
         </Row>

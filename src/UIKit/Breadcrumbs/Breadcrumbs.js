@@ -8,7 +8,8 @@ const Breadcrumbs = ({ breadcrumbs }) => {
   return (
     <Container
       fluid
-      className='breadcrumb-container my-2 px-0 d-flex align-items-center justify-content-center'
+      className='breadcrumb-container px-0 d-flex align-items-center justify-content-center'
+      style={{ paddingTop: "10rem" }}
     >
       <Image src={breadcrumbBanner} className='breadcrumb-container__img' />
       <div>

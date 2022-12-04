@@ -79,38 +79,37 @@ const Navbar = () => {
       </Container>
 
       {/* mobile menu */}
-      <Container
-        fluid
-        className='mobile-menu px-0 bg-white px-0'
-      >
-        <div className='mobile-menu__wrapper d-flex justify-content-between w-100 py-3 px-3 bg-white'>
-          <Link to='/' className='text-uppercase logo__text'>
-            <Image src={logo} height={40} />
-          </Link>
-          {showMobileNav ? (
-            <Image
-              src={menuCloseWhite}
-              alt='menu-close-white'
-              onClick={() => setShowMobileNav(false)}
-            />
-          ) : (
-            <MenuIcon onClick={() => setShowMobileNav(!showMobileNav)} />
-          )}
-        </div>
-        <div
-          className={`mobile-navlinks bg-white px-3 py-2 ${
-            showMobileNav ? "mobile-nav-shown" : "mobile-nav-hidden"
-          }`}
-        >
-          {navLinks.map((link, index) => (
-            <div key={index}>
-              <Link to={link.link} className='nav__link'>
-                {link.title}
-              </Link>
-            </div>
-          ))}
-        </div>
-      </Container>
+      <div style={{ position: "relative" }}>
+        <Container fluid className='mobile-menu px-0 px-0'>
+          <div className='mobile-menu__wrapper d-flex justify-content-between w-100 py-3 px-3 bg-white'>
+            <Link to='/' className='text-uppercase logo__text'>
+              <Image src={logo} height={40} />
+            </Link>
+            {showMobileNav ? (
+              <Image
+                src={menuCloseWhite}
+                alt='menu-close-white'
+                onClick={() => setShowMobileNav(false)}
+              />
+            ) : (
+              <MenuIcon onClick={() => setShowMobileNav(!showMobileNav)} />
+            )}
+          </div>
+          <div
+            className={`mobile-navlinks bg-white px-3 py-2 ${
+              showMobileNav ? "mobile-nav-shown" : "mobile-nav-hidden"
+            }`}
+          >
+            {navLinks.map((link, index) => (
+              <div key={index}>
+                <Link to={link.link} className='nav__link'>
+                  {link.title}
+                </Link>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </div>
     </Fragment>
   );
 };

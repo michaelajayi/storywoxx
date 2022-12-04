@@ -21,29 +21,56 @@
   width: 70%;
 }
 
-@media screen and (min-width: 320px) and (max-width: 450px) {
-  .header-text {
-    font-size: 3.5rem;
-  }
-}
-
 /* testing */
 .subheading__text {
   color: #878787;
   font-size: 1rem;
-  inline-size: 60%;
+  inline-size: 70%;
 }
 
 .subheading__header {
   color: #171717;
   line-height: 1.17em;
   font-size: 28px;
+  inline-size: 90%;
 }
 
 .subheader {
-  width: 90%;
-  padding-block: 3rem;
-  padding-left: 10rem;
+  width: 85%;
+  padding: 3rem 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.subheader > * {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+  .header-text {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .subheading__header {
+    inline-size: 80%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .third-header-child {
+    display: none !important;
+  }
+
+  .subheader {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -55,8 +82,10 @@
   }
 
   .subheader {
+    /* position: absolute; */
+    height: 30vh;
     width: 100%;
-    height: 100%;
+    grid-template-columns: 1fr;
   }
 
   .header-text {
@@ -66,5 +95,11 @@
   .subheader {
     padding-left: 2rem;
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+  .header-text {
+    font-size: 4rem;
   }
 }

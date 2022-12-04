@@ -12,13 +12,13 @@ const Homepage = () => {
   return (
     <Fragment>
       <Navbar />
-      {/* <Header /> */}
-      {/* <Testimonials /> */}
-      {/* <Review /> */}
-      {/* <DigitalExperience /> */}
-      {/* <OurBusinessThrives /> */}
-      {/* <Services /> */}
-      {/* <Footer /> */}
+      <Header />
+      <Testimonials />
+      <Review />
+      <DigitalExperience />
+      <OurBusinessThrives />
+      <Services />
+      <Footer />
     </Fragment>
   );
 };

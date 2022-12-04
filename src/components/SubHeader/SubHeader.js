@@ -1,50 +1,37 @@
-import React, { useId } from "react";
+import React from "react";
+import { Container } from "react-bootstrap";
 import RoundButton from "../../UIKit/Buttons/RoundButton";
-import { Container, Row, Col } from "react-bootstrap";
 import "./SubHeader.css";
 
 const SubHeader = () => {
-  const id = useId();
-
-  const subHeaderItems = [
-    {
-      title: "Extension of Your Team",
-      text: "A true extension of your team, advancing business objectives, alongside your internal team.",
-      roundButtonLink: "/performance",
-    },
-    {
-      title: "Multi-Disciplinary Creators",
-      text: "Multi-disciplinary team of experienced marketers, strategists, creatives and developers.",
-      roundButtonLink: "/performance",
-    },
-    {
-      title: "Systematic Approach",
-      text: "A comprehensive process which is segmented into phases from product ideation to specialized marketing.",
-      roundButtonLink: "/performance",
-      extraClass: "d-none d-lg-block",
-    },
-  ];
   return (
     <Container
       fluid
       className='subheader__container d-flex justify-content-evenly align-items-center d-none d-md-block'
     >
-      <Row className='subheader__wrapper justify-content-between bg-white'>
-        {subHeaderItems.map((item, index) => (
-          <Col sm={12} md={6} lg={4} key={index}>
-            <div
-              className={`d-flex flex-column align-items-start subheader__sub gap-3 ${
-                index === 2 && "d-none d-md-flex"
-              }`}
-              key={`${id}-${index}`}
-            >
-              <h3 className='subheader__title'>{item.title}</h3>
-              <p className='subheader__text'>{item.text}</p>
-              <RoundButton arrowColor='#000' />
-            </div>
-          </Col>
-        ))}
-      </Row>
+      <div className='subheader bg-white'>
+        <div className='align-items-start gap-3'>
+          <h4 className='subheading__header'>Systematic Approach</h4>
+          <p className='subheading__text'>
+            From product ideation to specialized marketing.
+          </p>
+          <RoundButton arrowColor='#000' />
+        </div>
+        <div className='align-items-start gap-3'>
+          <h4 className='subheading__header'>Multi-Disciplinary Creators</h4>
+          <p className='subheading__text'>
+            Experienced marketers, strategists and developers.
+          </p>
+          <RoundButton arrowColor='#000' />
+        </div>
+        <div className='align-items-start gap-3 third-header-child'>
+          <h4 className='subheading__header'>Extension of Your Team</h4>
+          <p className='subheading__text'>
+            We act as a true extension of your team.
+          </p>
+          <RoundButton arrowColor='#000' />
+        </div>
+      </div>
     </Container>
   );
 };

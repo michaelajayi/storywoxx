@@ -20,7 +20,9 @@ const Portfolio = () => {
         fluid
         className='portfolio-items__container px-0 d-flex flex-column align-items-center justify-content-center gap-5'
       >
-        <h1 className='main-heading text-center'>Our Recent Projects</h1>
+        <h1 className='main-heading text-center' style={{ marginTop: "5rem", marginBottom: '4rem' }}>
+          Our Recent Projects
+        </h1>
         <div className='portfolio-items__row px-0'>
           {portfolios.map((item, index) => (
             <div className='px-0 mx-0' key={`${index}-${id}`}>
