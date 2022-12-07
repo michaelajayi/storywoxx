@@ -14,6 +14,7 @@ const TwoColumnsRight = ({
   buttonLink,
   buttonText,
   buttonBg,
+  services,
 }) => {
   return (
     <Container fluid className='px-0'>
@@ -33,6 +34,10 @@ const TwoColumnsRight = ({
               </h1>
             </div>
             <p className='two-columns-right__text'>{desc}</p>
+            {/* Services breakdown */}
+            <ul className='d-flex flex-column gap-1 service-services'>
+              {services && services.map((service) => <li>{service}</li>)}
+            </ul>
             <Link to={buttonLink}>
               <FlatButton
                 text={buttonText}

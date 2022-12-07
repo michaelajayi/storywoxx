@@ -9,6 +9,7 @@
 .mobile-nav-shown {
   display: flex;
   flex-direction: column;
+  gap: .45rem;
 }
 
 .logo__text,

@@ -43,6 +43,11 @@
   text-align: end;
 }
 
+.service-services-left {
+  text-align: right;
+  direction: rtl;
+}
+
 @media screen and (min-width: 320px) and (max-width: 900px) {
   .two-columns__left {
     flex-direction: column-reverse !important;
@@ -64,6 +69,11 @@
   .two-columns-left__heading {
     text-align: start !important;
     inline-size: 100%;
+  }
+
+  .service-services-left {
+    text-align: left;
+    direction: ltr;
   }
 
   .two-columns-left__text {

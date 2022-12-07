@@ -22,20 +22,20 @@ const Review = () => {
       position: "Digital Marketing",
     },
     {
-      heading: "What They Say",
-      text: "Vulputate mi sit amet mauris commodo quis imperdiet. Metus vulputate eu felis imperdiet proin nulla aliquet enim.",
+      heading: "Our Process",
+      text: "Creating a simple, clear and emotionally-compelling narrative",
       author: "Provident Fugit",
       position: "Software Engineer",
     },
     {
-      heading: "What They Say",
-      text: "Vulputate mi sit amet mauris commodo quis imperdiet. Metus vulputate eu felis imperdiet proin nulla aliquet enim.",
+      heading: "Our Offering",
+      text: "Specialized in reaching mass-market consumers.",
       author: "Quis Imperdiet",
       position: "QA Tester",
     },
   ];
   return (
-    <Container fluid className='reviews__container my-5'>
+    <Container className='reviews__container my-5'>
       <Swiper
         style={{
           "--swiper-navigation-color": "#8b8b8b",

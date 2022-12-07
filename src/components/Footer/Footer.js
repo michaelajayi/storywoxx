@@ -51,7 +51,13 @@ const Footer = () => {
                 <a href='#!'>Facebook</a>
               </li>
               <li>
-                <a href='instagram.com/StoryWoxx'>Instagram</a>
+                <a
+                  href='https://www.instagram.com/StoryWoxx'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Instagram
+                </a>
               </li>
             </ul>
           </div>
@@ -68,7 +74,7 @@ const Footer = () => {
             <ul className='text-light d-flex flex-column gap-2 px-0'>
               <li>hi@storywoxx.com</li>
               <li>8 Dejo Adeleye Street, Abijo GRA, Lekki</li>
-              <li>+234 123 456 7890</li>
+              <li>+23(4) 8024 500001</li>
             </ul>
           </div>
         </div>

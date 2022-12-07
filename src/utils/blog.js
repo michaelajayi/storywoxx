@@ -1,6 +1,6 @@
-import storyTelling from "../assets/img/banner/03.png";
-import brandAndMarketing from "../assets/img/banner/02.png";
-import webDesignMistakes from "../assets/img/banner/01.png";
+import storyTelling from "../assets/img/blog/the-power-of-storytelling.jpg";
+import brandAndMarketing from "../assets/img/blog/branding-vs-marketing.jpg";
+import webDesignMistakes from "../assets/img/blog/four-common-mistakes.jpg";
 
 export const blog = [
   {

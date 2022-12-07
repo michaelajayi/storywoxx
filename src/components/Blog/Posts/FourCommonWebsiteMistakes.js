@@ -1,20 +1,18 @@
 import React from "react";
+import { Card, Container, Image } from "react-bootstrap";
+import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import Breadcrumbs from "../../../UIKit/Breadcrumbs/Breadcrumbs";
 import Navbar from "../../Navbar/Navbar";
-import NavbarAlt from "../../NavbarAlt/NavbarAlt";
-import { Container, Image, Row, Col, Card } from "react-bootstrap";
-import { FaTwitter, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 
 import BlogPostForm from "../BlogPostForm";
 import RelatedPosts from "../RelatedPosts";
 
-import brandMarketing from "../../SingleService/BrandMarketing/BrandMarketing";
 
-import authorImg from "../../../assets/img/author-img.jpeg";
-import blogBreadcrumbBg from "../../../assets/img/blog/blog-breadcrumb-bg.jpeg";
 
-import "./ThePowerOfStoryTelling.css";
+import blogAuthorImg from "../../../assets/img/blog-author-img.jpg";
+
 import quote from "../../../UIKit/Icons/quote.svg";
+import "./ThePowerOfStoryTelling.css";
 
 const FourCommonWebsiteMistakes = () => {
   return (
@@ -25,7 +23,7 @@ const FourCommonWebsiteMistakes = () => {
         fluid
         className='px-0 blog-post__container d-flex flex-column flex-lg-row gap-5'
       >
-        <div className='blog-post__left'>
+        <div className='blog-post__left my-5 my-lg-0'>
           <div className='blog-title-card d-flex flex-column flex-lg-row justify-content-between'>
             <div className='d-flex flex-column gap-2'>
               <p className='sub-heading'>
@@ -195,12 +193,12 @@ const FourCommonWebsiteMistakes = () => {
             style={{ width: "20rem" }}
             className='rounded-0 px-0 border-0 author-card-blog'
           >
-            <Card.Img variant='top' src={authorImg} className='rounded-0' />
+            <Card.Img variant='top' src={blogAuthorImg} className='rounded-0' />
             <Card.Body className='author-card-body d-flex flex-column gap-3'>
               <Card.Title className='author-fullname'>StoryWoxx</Card.Title>
               <Card.Text className='author-bio'>
-                Alienum phaedrum torquatos nec eu, vis detraxit periculis ex,
-                nihil expetendis in mei sui an pericula
+                Creating a simple, clear and emotionally-compelling narrative,
+                our approach brings clarity and meaning.
               </Card.Text>
               <div className='author-social-links d-flex justify-content-start align-items-center gap-2'>
                 <a href='facebook.com' className='text-dark'>

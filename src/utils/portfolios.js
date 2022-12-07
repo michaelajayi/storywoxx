@@ -38,6 +38,18 @@ import nf01 from "../assets/img/projects/nigeriafirst/01.jpg";
 import nf02 from "../assets/img/projects/nigeriafirst/02.jpg";
 import nf03 from "../assets/img/projects/nigeriafirst/03.jpg";
 
+// hk - hakeemat
+import hakeemat from "../assets/img/projects/hakeemat/01.jpg";
+import hk01 from "../assets/img/projects/hakeemat/01.jpg";
+import hk02 from "../assets/img/projects/hakeemat/02.jpg";
+import hk03 from "../assets/img/projects/hakeemat/03.jpg";
+
+// ct - coursetoria
+import ct01 from "../assets/img/projects/coursetoria/01.jpg";
+import ct02 from "../assets/img/projects/coursetoria/02.jpg";
+import ct03 from "../assets/img/projects/coursetoria/03.jpg";
+import ct04 from "../assets/img/projects/coursetoria/04.jpg";
+
 // lj - lion and jewel
 import lj01 from "../assets/img/projects/lionandjewel/01.jpg";
 import lj02 from "../assets/img/projects/lionandjewel/02.jpg";
@@ -292,6 +304,69 @@ export const portfolios = [
       },
       {
         img: nf03,
+      },
+    ],
+  },
+  {
+    title: "Coursetoria",
+    category: "logo, website, content",
+    img: ct01,
+    paragraphs: [
+      {
+        paragraph:
+          "Coursetoria.com is about offering people a platform to discover different hands-on training providers across multiple fields. With the constant need to train, retrain and acquire relevant skills, means there is a need for a hub to showcase what is available locally to help in making informed learning decisions. Coursetoria is an online marketplace for professionals and would-be professionals where several training providers across multiple disciplines list training areas and programmes on offer.",
+      },
+      {
+        paragraph:
+          "ciplines list training areas and programmes on offer. Course attendees are encouraged to rate each training provider and write reviews to guide others. StoryWoxx was commissioned to design a logo and campaign for the online marketplace which is a platform for mostly offline, real-world, on-demand programmes. Having realized that not every skill is learnable online, there are still multiple pieces of training that physical, hands-on presence is needed with a coach or expert for guidance.",
+      },
+      {
+        paragraph:
+          "Coursetoria.com was the space to discover what you could learn around your locality such as singing, learning to play the piano, art, and craft, sewing, etc. StoryWoxx delivered a befitting logo and campaign.",
+      },
+    ],
+    gallery: [
+      {
+        img: ct01,
+      },
+      {
+        img: ct02,
+      },
+      {
+        img: ct03,
+      },
+      {
+        img: ct04,
+      },
+    ],
+  },
+  {
+    title: "Hakeemat.org",
+    category: "logo, website, content, campaign",
+    img: hakeemat,
+    paragraphs: [
+      {
+        paragraph:
+          "The Hakeemat Adeleye Foundation is a Non-Governmental Organization dedicated to improving the standard of living of senior citizens, youths, and children primarily in Nigeria. The foundation is determined to add value by mitigating some of the pressures faced by Nigerian citizens. The initiatives are focused on improving the quality of life of the children, youth, and elderly.",
+      },
+      {
+        paragraph:
+          "The Hakeemat Adeleye Foundation found it imperative to lighten the burden of others. The aim is to connect, influence positively, and make a difference in the lives of those in dire need. From the provision of meals to providing drinking water in communities, and the provision of scholarships to children and youths. All efforts are geared towards ensuring that they give back and make a real difference in lives.",
+      },
+      {
+        paragraph:
+          "The vision is to improve the standard of living of children, most especially orphans, youths, women, and the elderly through community-led initiatives and activities. Their mission is to organize sustainable community-led initiatives which shall be structured to provide succour to children, youths, and women, and close the educational gap between the underprivileged and the privileged. StoryWoxx delivered the logo, branding, website, and content for the initiative.",
+      },
+    ],
+    gallery: [
+      {
+        img: hk01,
+      },
+      {
+        img: hk02,
+      },
+      {
+        img: hk03,
       },
     ],
   },

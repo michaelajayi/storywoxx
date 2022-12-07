@@ -9,7 +9,15 @@ import bgImage from "../../../assets/img/digital-experience.jpg";
 import "./BrandMarketing.css";
 
 const BrandMarketing = () => {
-  
+  const services = [
+    "Branding & Marketing Materials",
+    "Video Production",
+    "Logo Design",
+    "Brand & Lifestyle Photography",
+    "Brand Identity",
+    "Product Photography",
+  ];
+
   const theHow = [
     {
       title: "Research",
@@ -45,27 +53,36 @@ const BrandMarketing = () => {
       <Navbar />
       <Breadcrumbs breadcrumbs='home / services / brand marketing' />
       {/* Brand Marketing Intro */}
-      <Container className='px-0 brand-intro__container px-3'>
-        <div className='d-flex flex-column gap-4'>
-          <div className='d-flex flex-column gap-2'>
-            <p className='brand-intro__subheading sub-heading'>
-              Our Business Thrives
+      <Container className='px-0 py-5 brand-intro__container px-3'>
+        <div className='d-flex align-items-center flex-column flex-md-row gap-5'>
+          <div className='d-flex flex-column gap-4'>
+            <div className='d-flex flex-column gap-2'>
+              <p className='brand-intro__subheading sub-heading'>
+                Our Business Thrives
+              </p>
+              <h1 className='main-heading brand-intro__heading'>
+                Unlock Your Limitless Brand Potential
+              </h1>
+            </div>
+            <p className='brand-intro__desc'>
+              Every brand is different, we produce the brand awareness and
+              attention your business deserves to stand out from the
+              competition. Your brand is more than a name and logo. It’s your
+              business’s DNA. It’s your employees, customers, culture, and
+              identity.
             </p>
-            <h1 className='main-heading brand-intro__heading'>
-              Unlock Your Limitless Brand Potential
-            </h1>
+            <p className='brand-intro__sub'>
+              By uncovering your business’ unique identity, we develop a brand
+              that speaks to your values, shows who you are, finds your purpose,
+              and forms an unbreakable bond with your customers.
+            </p>
           </div>
-          <p className='brand-intro__desc'>
-            Every brand is different, we produce the brand awareness and
-            attention your business deserves to stand out from the competition.
-            Your brand is more than a name and logo. It’s your business’s DNA.
-            It’s your employees, customers, culture, and identity.
-          </p>
-          <p className='brand-intro__sub'>
-            By uncovering your business’ unique identity, we develop a brand
-            that speaks to your values, shows who you are, finds your purpose,
-            and forms an unbreakable bond with your customers.
-          </p>
+          <div className='w-100'>
+            <h1 className='main-heading my-3'>Brand Marketing</h1>
+            <ul className='d-flex flex-column gap-1 service-services-inner'>
+              {services && services.map((service) => <li>{service}</li>)}
+            </ul>
+          </div>
         </div>
       </Container>
 

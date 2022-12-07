@@ -10,33 +10,51 @@ import bgImage from "../../../assets/img/digital-experience.jpg";
 import "./WebDevelopment.css";
 
 const WebDevelopment = () => {
+  const services = [
+    "User Experience Design (UI/UX)",
+    "Content strategy",
+    "Web Development",
+    "eCommerce Web Design",
+    "Mobile Responsive Design",
+    "Website Maintenance & Management",
+  ];
   return (
     <Container fluid className='px-0'>
       <Navbar />
       <Breadcrumbs breadcrumbs='home / services / web development' />
       {/* Brand Marketing Intro */}
-      <Container className='px-0 brand-intro__container px-3'>
-        <div className='d-flex flex-column gap-4'>
-          <div className='d-flex flex-column gap-2'>
-            <p className='brand-intro__subheading sub-heading'>
-              Our Business Thrives
+      <Container className='px-0 brand-intro__container px-3 py-5'>
+        <div className='d-flex flex-column flex-md-row gap-5 align-items-center'>
+          <div className='d-flex flex-column gap-4'>
+            <div className='d-flex flex-column gap-2'>
+              <p className='brand-intro__subheading sub-heading'>
+                Our Business Thrives
+              </p>
+              <h1 className='main-heading brand-intro__heading'>
+                Web Solutions & Experience Design
+              </h1>
+            </div>
+            <p className='brand-intro__desc'>
+              Your brand image should influence a perception and create an
+              impression of your business abilities, and we want you to shine.
             </p>
-            <h1 className='main-heading brand-intro__heading'>
-              Web Solutions & Experience Design
-            </h1>
-          </div>
-          <p className='brand-intro__desc'>
-            Your brand image should influence a perception and create an
-            impression of your business abilities, and we want you to shine.
-          </p>
 
-          <p className='brand-intro__desc'>
-            StoryWoxx develops websites and e-commerce platforms that uniquely
-            communicate who you are, demonstrate why you’re important, create
-            maximum conversions, drive business growth and profitability, and
-            visually get noticed with mind-boggling design. We build brand
-            image.
-          </p>
+            <p className='brand-intro__desc'>
+              StoryWoxx develops websites and e-commerce platforms that uniquely
+              communicate who you are, demonstrate why you’re important, create
+              maximum conversions, drive business growth and profitability, and
+              visually get noticed with mind-boggling design. We build brand
+              image.
+            </p>
+          </div>
+          <div className='w-100'>
+            <h1 className='main-heading my-3 '>
+              Web Design & Development Services
+            </h1>
+            <ul className='d-flex flex-column gap-1 service-services-inner'>
+              {services && services.map((service) => <li>{service}</li>)}
+            </ul>
+          </div>
         </div>
       </Container>
 

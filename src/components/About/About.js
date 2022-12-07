@@ -10,7 +10,7 @@ import AboutUsSlider from "../AboutUsSlider/AboutUsSlider";
 import AboutIntro from "../AboutIntro/AboutIntro";
 import TwoColumns from "../TwoColumns/TwoColumns";
 
-import bgImage from "../../assets/img/banner/about-us-banner.jpg";
+import bgImage from "../../assets/img/banner/about-us-banner-01.jpg";
 
 import "./About.css";
 

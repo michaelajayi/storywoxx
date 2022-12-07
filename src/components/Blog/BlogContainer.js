@@ -1,16 +1,14 @@
 import React from "react";
-import { Container, Row, Col, Image, Card } from "react-bootstrap";
-import { FaTwitter, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
+import { Card, Col, Container, Image, Row } from "react-bootstrap";
+import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
-import "./BlogContainer.css";
-import blogImageSample from "../../assets/img/banner/03.png";
 import RoundButton from "../../UIKit/Buttons/RoundButton";
+import "./BlogContainer.css";
 
 import { blog } from "../../utils/blog.js";
 
-import authorImg from "../../assets/img/author-img.jpeg";
-import blogAuthorImg from "../../assets/img/blog-author-img.jpg";
 import { Link } from "react-router-dom";
+import blogAuthorImg from "../../assets/img/blog-author-img.jpg";
 
 export const BlogContainer = () => {
   return (
@@ -54,7 +52,9 @@ export const BlogContainer = () => {
           {blog.map((post) => (
             <div className='d-flex flex-column gap-1 align-items-start  '>
               <Link to={post.link}>
-                <Image src={post.img} alt='blog-img-sample' />
+                <div className='blog-img-container'>
+                  <Image src={post.img} alt='blog-img-sample' className='blog-img' />
+                </div>
               </Link>
               <div className='blog-texts d-flex flex-column gap-3'>
                 <h1 className='main-heading'>{post.title}</h1>

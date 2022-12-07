@@ -25,6 +25,23 @@
   font-weight: 400 !important;
 }
 
+.blog-img-container {
+  height: 100%;
+  /* width: 100%; */
+  overflow: hidden;
+}
+
+.blog-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.blog-img:hover {
+  transform: scale(1.1);
+}
+
 .author-bio {
   font-size: 1rem;
   color: #878787;

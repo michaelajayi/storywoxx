@@ -9,6 +9,16 @@ import bgImage from "../../../assets/img/digital-experience.jpg";
 import "./DigitalMarketing.css";
 
 const DigitalMarketing = () => {
+  const services = [
+    "eCommerce Marketing",
+    "Google Ads Management",
+    "Social Media Management",
+    "SEO / Search Engine Optimization",
+    "Social Media Advertising",
+    "Online Reputation Management",
+    "PPC / Pay Per Click",
+  ];
+
   const theHow = [
     {
       title: "Measurement & Optimization",
@@ -48,21 +58,31 @@ const DigitalMarketing = () => {
       <Navbar />
       <Breadcrumbs breadcrumbs='home / services / brand marketing' />
       {/* Brand Marketing Intro */}
-      <Container className='px-0 digital-intro__container px-3'>
-        <div className='d-flex flex-column gap-4'>
-          <div className='d-flex flex-column gap-2'>
-            <p className='digital-intro__subheading sub-heading'>
-              Our Business Thrives
+      <Container className='px-0 digital-intro__container px-3 py-5'>
+        <div className='d-flex flex-column flex-md-row gap-5 align-items-center'>
+          <div className='d-flex flex-column gap-4'>
+            <div className='d-flex flex-column gap-2'>
+              <p className='digital-intro__subheading sub-heading'>
+                Our Business Thrives
+              </p>
+              <h1 className='main-heading digital-intro__heading'>
+                Unleash an Unstoppable Strategy
+              </h1>
+            </div>
+            <p className='digital-intro__desc'>
+              We know what’s needed to see results in the world of digital
+              marketing. That’s why we work hard and think creatively to build
+              engagement that produces measurable results.
             </p>
-            <h1 className='main-heading digital-intro__heading'>
-              Unleash an Unstoppable Strategy
-            </h1>
           </div>
-          <p className='digital-intro__desc'>
-            We know what’s needed to see results in the world of digital
-            marketing. That’s why we work hard and think creatively to build
-            engagement that produces measurable results.
-          </p>
+          <div className='w-100'>
+            <h1 className='main-heading my-3 '>
+              Digital Marketing Services
+            </h1>
+            <ul className='d-flex flex-column gap-1 service-services-inner'>
+              {services && services.map((service) => <li>{service}</li>)}
+            </ul>
+          </div>
         </div>
       </Container>
 
@@ -114,7 +134,8 @@ const DigitalMarketing = () => {
       <Container className='services-highlight px-3'>
         <div className='d-flex flex-column gap-2'>
           <p className='sub-heading'>Our Digital Marketing Process</p>
-          <h1 className='main-heading services-highlight__heading'>Digital Marketing Services
+          <h1 className='main-heading services-highlight__heading'>
+            Digital Marketing Services
           </h1>
         </div>
         <div className='services-highlight__items'>

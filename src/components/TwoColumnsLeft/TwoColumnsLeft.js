@@ -13,6 +13,7 @@ const TwoColumnsLeft = ({
   desc,
   buttonText,
   buttonLink,
+  services,
 }) => {
   return (
     <Container fluid className='px-0'>
@@ -41,6 +42,10 @@ const TwoColumnsLeft = ({
               </h1>
             </div>
             <p className='two-columns-left__text'>{desc}</p>
+            {/* Services breakdown */}
+            <ul className='d-flex flex-column gap-1 service-services service-services-left'>
+              {services && services.map((service) => <li>{service}</li>)}
+            </ul>
             <Link to={buttonLink}>
               <FlatButton
                 text={buttonText}

@@ -10,7 +10,7 @@ const ReviewItem = ({ review }) => {
     >
       <h4 className='review__heading text-uppercase'>{review.heading}</h4>
       <h3 className='review__text text-center'>{review.text}</h3>
-      <h6 className='review__author mt-2'>{`${review.author}`}</h6>
+      {/* <h6 className='review__author mt-2'>{`${review.author}`}</h6> */}
     </Container>
   );
 };

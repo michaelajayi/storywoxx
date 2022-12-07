@@ -1,18 +1,22 @@
 import React, { useId } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { Grid, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 import "./WhatTheySay.css";
 
 import WhatTheySayItem from "./WhatTheySayItem";
 
-import bg01 from "../../assets/img/portfolios/01.jpg";
-import bg02 from "../../assets/img/portfolios/02.jpg";
-import bg03 from "../../assets/img/portfolios/03.jpg";
-import bg04 from "../../assets/img/portfolios/04.jpg";
-import bg05 from "../../assets/img/portfolios/05.jpg";
-import bg06 from "../../assets/img/portfolios/06.jpg";
-import bg07 from "../../assets/img/portfolios/07.jpg";
-import bg08 from "../../assets/img/portfolios/08.jpg";
+
+import adlfarm from '../../assets/img/projects/adl-integrated-farms/01.jpg';
+import kh08 from "../../assets/img/projects/keemharun/01.jpg";
+import kh03 from "../../assets/img/projects/keemharun/03.jpg";
+import keemharun from "../../assets/img/projects/keemharun/05.jpg";
+import kh02 from "../../assets/img/projects/keemharun/06.jpg";
+import lionandjewel from '../../assets/img/projects/lionandjewel/04.jpg';
+import madaani from '../../assets/img/projects/madaani/02.jpg';
+import md04 from '../../assets/img/projects/madaani/04.jpg';
+import nigeriafirst from "../../assets/img/projects/nigeriafirst/03.jpg";
+import wysewater from "../../assets/img/projects/wysewater/02.png";
+import zedbaby from "../../assets/img/projects/zedbaby/03.jpg";
 
 import "swiper/css";
 import "swiper/css/grid";
@@ -23,52 +27,52 @@ const WhatTheySay = () => {
 
   const sliders = [
     {
-      text: "Opportunity",
-      img: bg01,
+      text: "Product Design",
+      img: zedbaby,
     },
     {
-      text: "Best Style",
-      img: bg02,
+      text: "Logo, Content, Campaign",
+      img: kh02,
     },
     {
-      text: "Blessing",
-      img: bg03,
+      text: "Logo, Campaign",
+      img: nigeriafirst,
     },
     {
-      text: "Organize",
-      img: bg04,
+      text: "Content",
+      img: keemharun,
     },
     {
-      text: "Beauty Now",
-      img: bg05,
+      text: "Campaign",
+      img: md04,
     },
     {
-      text: "Art",
-      img: bg06,
+      text: "Product Design, Logo",
+      img: wysewater,
     },
     {
-      text: "Beauty Now",
-      img: bg07,
+      text: "Campaign, Content",
+      img: kh08,
     },
     {
-      text: "Art",
-      img: bg08,
+      text: "Product Design",
+      img: madaani,
     },
     {
-      text: "Beauty Now",
-      img: bg01,
+      text: "Content, Campaign",
+      img: kh03,
     },
     {
-      text: "Art",
-      img: bg02,
+      text: "Logo, Content, Product Design",
+      img: zedbaby,
     },
     {
-      text: "Beauty Now",
-      img: bg03,
+      text: "Logo, Campaign",
+      img: lionandjewel,
     },
     {
-      text: "Art",
-      img: bg04,
+      text: "Content",
+      img: adlfarm,
     },
   ];
   return (
