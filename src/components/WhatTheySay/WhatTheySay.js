@@ -26,7 +26,7 @@ const WhatTheySay = () => {
   const id = useId();
 
   const sliders = [
-    {
+    { 
       text: "Product Design",
       img: zedbaby,
     },
