@@ -6,8 +6,8 @@
 
 .img-wrapper > img {
   transition: transform 0.5s ease;
-  height: inherit;
-  width: inherit;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
